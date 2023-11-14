@@ -7,19 +7,11 @@ Description
 
 Code languages
 ----------------------------------------------------------------------------------
-TS
-
-
-HTML5
-
-
-CSS
-
-
-SQL
-
-
-C#
+TS<br />
+HTML5<br />
+CSS <br />
+SQL<br />
+C#<br />
 
 framework
 Angular
