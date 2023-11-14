@@ -39,6 +39,7 @@ Sign up 2
 ![Sign up 2](https://github.com/Rotempper/4Dogs/assets/73877783/5a93efbd-a03e-47a5-98f8-c18a80f6709f)
 Sign up 3
 --------------------------------------------------------------------------------
+![Sign up 3](https://github.com/Rotempper/4Dogs/assets/73877783/2410822b-40a0-40bf-b0a8-af3b88278da4)
 
 Sign up 4 Dog training details
 --------------------------------------------------------------------------------
