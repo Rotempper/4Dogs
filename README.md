@@ -49,5 +49,6 @@ Dog training details
 ![Dog training details](https://github.com/Rotempper/4Dogs/assets/73877783/96eb5eb3-b62a-4856-b81a-bcc560202c14)
 Dog owner diary
 --------------------------------------------------------------------------------
+![Dog owner diary](https://github.com/Rotempper/4Dogs/assets/73877783/cf513e47-8b13-470d-91b8-d49119e3f1fb)
 About us 
 --------------------------------------------------------------------------------
