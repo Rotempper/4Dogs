@@ -1,0 +1,29 @@
+.input{
+  border-radius: 50px;
+  background-color: white;
+  border-color: black;
+}
+.tableLogin{
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2{
+  letter-spacing: .0625rem;
+  font-size: 1.675rem;
+  line-height: 1.05;
+  text-align: center;
+  color: #62554a;
+  font-family: Yeezy Tstar Bold;
+}
+
+/* שם התוכן */
+.NameInput{
+  text-align: start;
+}
+
+form{
+  margin-top: 130px;
+  margin-bottom: 200px;
+}

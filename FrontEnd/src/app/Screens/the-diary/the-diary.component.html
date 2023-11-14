@@ -1,0 +1,132 @@
+<h1 *ngIf="role=='BarberShopRole'"> יומן עבודה מספרה:</h1>
+<h1 *ngIf="role=='PensionRole'"> יומן עבודה פנסיון:</h1>
+<h1 *ngIf="role=='TrainingRole'"> יומן עבודה מאלף כלבים:</h1>
+
+<mat-tab-group mat-align-tabs="center">
+  <!--  *******************יומן ******************* -->
+  <mat-tab label="יומן עבודה"><br><br><br>
+    <!-- יומן - מספרה -->
+    <table class="table table-hover" *ngIf="role=='BarberShopRole'">
+      <thead>
+        <tr class="DirName">
+          <!-- <th>ביטול תור:</th> -->
+          <th>שם מבצע ההזמנה:</th>
+          <th>סוג תספורת:</th>
+          <th>תאריך:</th>
+          <th>שעה:</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let Haircut of Datepresent" >
+        <tr class="trDir" *ngFor="let user of allDogowner ">
+          <!-- <div><td><button class="Allbtn btn btn-outline-danger" matTooltip="מחיקה"><mat-icon>delete</mat-icon></button></td></div> -->
+          <div class="OrderDetails" *ngIf="currentBarberShopId.id == Haircut.barbershopId"><td *ngIf="user.id == Haircut.dogOwnerId">{{user.user}}</td></div>
+          <div class="OrderDetails" *ngIf="currentBarberShopId.id == Haircut.barbershopId"><td *ngIf="user.id == Haircut.dogOwnerId">{{Haircut.typesHaircutName}}</td></div>
+          <div class="OrderDetails" *ngIf="currentBarberShopId.id == Haircut.barbershopId"><td *ngIf="user.id == Haircut.dogOwnerId">{{Haircut.ddate|date:'dd-MM-yyyy'}}</td></div>
+          <div class="OrderDetails" *ngIf="currentBarberShopId.id == Haircut.barbershopId"><td *ngIf="user.id == Haircut.dogOwnerId">{{Haircut.hhour}}</td></div>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- יומן - פנסיון -->
+    <table class="table table-hover" *ngIf="role=='PensionRole'">
+      <thead>
+        <tr class="DirName">
+          <th>שם מבצע ההזמנה:</th>
+          <th>תאריך התחלה:</th>
+          <th>תאריך סיום:</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let Lodgning of DatepresentLodging" >
+        <tr class="trDir" *ngFor="let user of allDogowner">
+          <div class="OrderDetails" *ngIf="currentPensionId.id == Lodgning.pensionId"><td *ngIf="user.id == Lodgning.dogOwnerId">{{user.user}}</td></div>
+          <div class="OrderDetails" *ngIf="currentPensionId.id == Lodgning.pensionId"><td *ngIf="user.id == Lodgning.dogOwnerId">{{Lodgning.startDate|date:'dd-MM-yyyy'}}</td></div>
+          <div class="OrderDetails" *ngIf="currentPensionId.id == Lodgning.pensionId"><td *ngIf="user.id == Lodgning.dogOwnerId">{{Lodgning.endDate|date:'dd-MM-yyyy'}}</td></div>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- יומן - מאלף כלבים -->
+    <table class="table table-hover" *ngIf="role=='TrainingRole'">
+      <thead>
+        <tr class="DirName">
+          <th>שם מבצע ההזמנה:</th>
+          <th>שם חבילת אילוף:</th>
+          <th>תאריך התחלה:</th>
+          <th>תאריך סיום:</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let DogTraining of DatepresentDogTraining" >
+        <tr class="trDir" *ngFor="let user of allDogowner">
+          <div class="OrderDetails" *ngIf="currentTrainingId.id == DogTraining.trainingId"><td *ngIf="user.id == DogTraining.dogOwnerId">{{user.user}}</td></div>
+          <div class="OrderDetails" *ngIf="currentTrainingId.id == DogTraining.trainingId"><td *ngIf="user.id == DogTraining.dogOwnerId">{{DogTraining.trainingPackageName}}</td></div>
+          <div class="OrderDetails" *ngIf="currentTrainingId.id == DogTraining.trainingId"><td *ngIf="user.id == DogTraining.dogOwnerId">{{DogTraining.startDate|date:'dd-MM-yyyy'}}</td></div>
+          <div class="OrderDetails" *ngIf="currentTrainingId.id == DogTraining.trainingId"><td *ngIf="user.id == DogTraining.dogOwnerId">{{DogTraining.endDate|date:'dd-MM-yyyy'}}</td></div>
+        </tr>
+      </tbody>
+    </table>
+  </mat-tab>
+
+  <!--  ******************* ארכיון ******************* -->
+  <mat-tab label="ארכיון">
+    <!-- ארכיון מספרה-->
+    <table class="table table-hover" *ngIf="role=='BarberShopRole'">
+      <thead>
+        <tr class="DirName">
+          <th>שם מבצע ההזמנה:</th>
+          <th>סוג תספורת:</th>
+          <th>תאריך:</th>
+          <th>שעה:</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let Haircut of DateArciv" >
+        <tr class="trDir" *ngFor="let user of allDogowner ">
+          <div class="OrderDetails" *ngIf="currentBarberShopId.id == Haircut.barbershopId"><td *ngIf="user.id == Haircut.dogOwnerId">{{user.user}}</td></div>
+          <div class="OrderDetails" *ngIf="currentBarberShopId.id == Haircut.barbershopId"><td *ngIf="user.id == Haircut.dogOwnerId">{{Haircut.typesHaircutName}}</td></div>
+          <div class="OrderDetails" *ngIf="currentBarberShopId.id == Haircut.barbershopId"><td *ngIf="user.id == Haircut.dogOwnerId">{{Haircut.ddate|date:'dd-MM-yyyy'}}</td></div>
+          <div class="OrderDetails" *ngIf="currentBarberShopId.id == Haircut.barbershopId"><td *ngIf="user.id == Haircut.dogOwnerId">{{Haircut.hhour}}</td></div>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ארכיון פנסיון-->
+    <table class="table table-hover" *ngIf="role=='PensionRole'">
+      <thead>
+        <tr class="DirName">
+          <th>שם מבצע ההזמנה:</th>
+          <th>תאריך התחלה:</th>
+          <th>תאריך סיום:</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let Lodgning of DateDateArcivLodging">
+        <tr class="trDir" *ngFor="let user of allDogowner ">
+          <div class="OrderDetails" *ngIf="currentPensionId.id == Lodgning.pensionId"><td *ngIf="user.id == Lodgning.dogOwnerId">{{user.user}}</td></div>
+          <div class="OrderDetails" *ngIf="currentPensionId.id == Lodgning.pensionId"><td *ngIf="user.id == Lodgning.dogOwnerId">{{Lodgning.startDate|date:'dd-MM-yyyy'}}</td></div>
+          <div class="OrderDetails" *ngIf="currentPensionId.id == Lodgning.pensionId"><td *ngIf="user.id == Lodgning.dogOwnerId">{{Lodgning.endDate|date:'dd-MM-yyyy'}}</td></div>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ארכיון - מאלף כלבים -->
+    <table class="table table-hover" *ngIf="role=='TrainingRole'">
+      <thead>
+        <tr class="DirName">
+          <th>שם מבצע ההזמנה:</th>
+          <th>שם חבילת אילוף:</th>
+          <th>תאריך התחלה:</th>
+          <th>תאריך סיום:</th>
+        </tr>
+      </thead>
+      <tbody  *ngFor="let DogTraining of DateDateArcivDogTraining">
+        <tr class="trDir" *ngFor="let user of allDogowner ">
+          <div class="OrderDetails" *ngIf="currentTrainingId.id == DogTraining.trainingId"><td *ngIf="user.id == DogTraining.dogOwnerId">{{user.user}}</td></div>
+          <div class="OrderDetails" *ngIf="currentTrainingId.id == DogTraining.trainingId"><td *ngIf="user.id == DogTraining.dogOwnerId">{{DogTraining.trainingPackageName}}</td></div>
+          <div class="OrderDetails" *ngIf="currentTrainingId.id == DogTraining.trainingId"><td *ngIf="user.id == DogTraining.dogOwnerId">{{DogTraining.startDate|date:'dd-MM-yyyy'}}</td></div>
+          <div class="OrderDetails" *ngIf="currentTrainingId.id == DogTraining.trainingId"><td *ngIf="user.id == DogTraining.dogOwnerId">{{DogTraining.endDate|date:'dd-MM-yyyy'}}</td></div>
+        </tr>
+      </tbody>
+    </table>
+
+  </mat-tab>
+</mat-tab-group>
+
+

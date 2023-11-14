@@ -1,0 +1,60 @@
+<h1>הזמנת פנסיון:</h1><br>
+
+<mat-accordion *ngFor="let Pension of allPension">
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title><b class="title"><li>{{Pension.nameBusiness}}</li></b></mat-panel-title>
+      <mat-panel-description class="infoPanel">לחץ כאן לפרטי הפנסיון</mat-panel-description>
+    </mat-expansion-panel-header>
+
+    <div class="FirstDivTable">
+      <table class="table">
+        <thead>
+          <tr class="DirName">
+            <td><b>כתובת:</b></td>
+            <td><b> עיר:</b></td>
+            <td><b>מידע:</b></td>
+            <td><b>טלפון:</b></td>
+            <td><b>מחיר ללילה:</b></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{{Pension.aaddress}}</td>
+            <td>{{Pension.city}}</td>
+            <td>{{Pension.about}}</td>
+            <td>{{Pension.phone}}</td>
+            <td>₪{{Pension.pricePerForNight}}</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-description class="infoPanel2"><mat-icon>shopping_cart</mat-icon><b>לחץ כאן להזמנה:</b></mat-panel-description>
+      </mat-expansion-panel-header>
+
+      <form [formGroup]="PensionLodgingOrder" *ngIf="auth !='{}' && role =='DogOwnerRole'" (ngSubmit)="LodgingOrder()">
+
+        <mat-form-field appearance="fill">
+          <mat-label>בחר תאריך התחלה וסיום</mat-label>
+          <mat-date-range-input [rangePicker]="picker">
+            <input matStartDate formControlName="StartDate" placeholder="Start date">
+            <input matEndDate formControlName="EndDate" placeholder="End date">
+          </mat-date-range-input>
+          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-date-range-picker #picker></mat-date-range-picker>
+        </mat-form-field><br>
+
+        <button class="Bt btn btn-outline-dark" (click)="idPension = Pension.id" type="submit">אישור</button><br>
+        <div class=" divError alert alert-success" *ngIf="ok">{{ok}}</div><br>
+        <div class="divError alert alert-danger" *ngIf="errorcurrentDate">{{errorcurrentDate}}</div><br>
+        <div routerLink="/Orders" *ngIf="ok">לצפיה בהזמנה לחץ כאן</div>
+    </form>
+
+    <div class="divError alert alert-danger mt-3 mb-0" *ngIf="auth =='{}'">{{error}}</div>
+    <div class="divError alert alert-danger" *ngIf="auth !='{}' && role !='DogOwnerRole'">{{errorRole}}</div>
+    </mat-expansion-panel>
+  </mat-expansion-panel>
+</mat-accordion> <!-- mat-accordion -->

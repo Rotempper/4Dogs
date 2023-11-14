@@ -1,0 +1,61 @@
+<!-- +++++++++++++++  הוספת תספורת  +++++++++++++++ -->
+<form *ngIf="role=='BarberShopRole'" method="post" [formGroup]="addTypesHaircutForm" (ngSubmit)="addTypesHaircut()" action="/en-us" novalidate="novalidate">
+  <h2>הוספת תספורת:</h2>
+  <table class="tableCreateUser">
+    <tr class="NameInput">
+      <!-- שם תספורת -->
+      <label for="text">שם תספורת<span class="text-danger pr-1">*</span></label><br>
+      <input class="Circle btn" formControlName="haircutName" required="required" type="text"><br>
+      <small class="form-text text-danger"*ngIf="addTypesHaircutForm.controls?.haircutName?.touched && addTypesHaircutForm.controls?.haircutName?.errors?.required">אנא מלא שדה זה</small>
+    </tr><br>
+    <tr class="NameInput">
+      <!-- תיאור תספורת  -->
+      <label for="text">תיאור תספורת<span class="text-danger pr-1">*</span></label><br>
+      <input class="Circle btn about" formControlName="ddescription" required="required" type="text"><br>
+      <small class="form-text text-danger"*ngIf="addTypesHaircutForm.controls?.ddescription?.touched && addTypesHaircutForm.controls?.ddescription?.errors?.required">אנא מלא שדה זה</small>
+    </tr><br>
+    <tr class="NameInput">
+      <!-- מחיר תספורת  -->
+      <label for="text">מחיר תספורת<span class="text-danger pr-1">*</span></label><br>
+      <input class="Circle btn" formControlName="price" required="required" type="number"><br>
+      <small class="form-text text-danger"*ngIf="addTypesHaircutForm.controls?.price?.touched && addTypesHaircutForm.controls?.price?.errors?.required">אנא מלא שדה זה</small>
+    </tr><br>
+    <tr class="buttonFin"><br>
+      <button class="Allbtn btn btn-outline-primary" type="submit" [disabled]="!addTypesHaircutForm.valid" matTooltip="הוסף"><mat-icon>library_add</mat-icon></button>
+      <div class="alert alert-success mt-3 mb-0" *ngIf="success">{{success}}</div><br>
+      <div class="divError alert alert-danger mt-3 mb-0" *ngIf="error">{{error}}</div><br>
+    </tr>
+  </table>
+</form>
+
+<!-- +++++++++++++++  הוספת חבילת אילוף  +++++++++++++++ -->
+
+<form *ngIf="role=='TrainingRole'" [formGroup]="addTrainingPackageForm" (ngSubmit)="addTrainingPackage()">
+  <h2>הוספת חבילת אילוף:</h2>
+  <table class="tableCreateUser">
+    <tr class="NameInput">
+      <!-- סוג האילוף -->
+      <label for="text">סוג האילוף<span class="text-danger pr-1">*</span></label><br>
+      <input class="Circle btn" formControlName="trainingName" required="required" type="text"><br>
+      <small class="form-text text-danger" *ngIf="addTrainingPackageForm.controls?.trainingName?.touched && addTrainingPackageForm.controls?.trainingName?.errors?.required">אנא מלא שדה זה</small>
+    </tr><br>
+    <tr class="NameInput">
+      <!-- תיאור האילוף  -->
+      <label for="text">תיאור האילוף<span class="text-danger pr-1">*</span></label><br>
+      <input class="Circle btn about" formControlName="ddescription" required="required" type="text"><br>
+      <small class="form-text text-danger" *ngIf="addTrainingPackageForm.controls?.ddescription?.touched && addTrainingPackageForm.controls?.ddescription?.errors?.required">אנא מלא שדה זה</small>
+    </tr><br>
+    <tr class="NameInput">
+      <!-- מחיר האילוף  -->
+      <label for="text">מחיר האילוף<span class="text-danger pr-1">*</span></label><br>
+      <input class="Circle btn" formControlName="price" required="required" type="number"><br>
+      <small class="form-text text-danger" *ngIf="addTrainingPackageForm.controls?.price?.touched && addTrainingPackageForm.controls?.price?.errors?.required">אנא מלא שדה זה</small>
+    </tr><br>
+    <tr class="buttonFin"><br>
+      <button class="Allbtn btn btn-outline-primary" type="submit" [disabled]="!addTrainingPackageForm.valid" matTooltip="הוסף"><mat-icon>library_add</mat-icon></button><br>
+      <div class="alert alert-success mt-3 mb-0" *ngIf="success">{{success}}</div><br>
+      <div class="divError alert alert-danger mt-3 mb-0" *ngIf="error">{{error}}</div><br>
+    </tr>
+  </table>
+</form>
+

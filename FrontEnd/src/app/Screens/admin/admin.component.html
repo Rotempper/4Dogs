@@ -1,0 +1,175 @@
+<mat-tab-group mat-align-tabs="center">
+  <!-- אילופים -->
+  <mat-tab label="משתמשים - אילופים"><br><br><br>
+    <table class="table table-bordered mat-elevation-z8 mat-table">
+      <thead>
+        <tr class="DirName">
+          <th>מספר מזהה:</th>
+          <th>שם פרטי:</th>
+          <th>שם משפחה:</th>
+          <th>אימייל:</th>
+          <th>מס טלפון:</th>
+          <th>שם העסק:</th>
+          <th>כתובת:</th>
+          <th>עיר:</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let dataUser of UserCustomer">
+        <tr class="trDir" *ngFor="let dataTraining of trainingCustomer">
+          <td *ngIf="dataUser.id == dataTraining.userId">{{dataUser.id}}</td>
+          <td *ngIf="dataUser.id == dataTraining.userId">{{dataUser.firstName}}</td>
+          <td *ngIf="dataUser.id == dataTraining.userId">{{dataUser.lastName}}</td>
+          <td *ngIf="dataUser.id == dataTraining.userId">{{dataUser.email}}</td>
+          <td *ngIf="dataUser.id == dataTraining.userId">{{dataUser.phone}}</td>
+          <td *ngIf="dataUser.id == dataTraining.userId">{{dataTraining.nameBusiness}}</td>
+          <td *ngIf="dataUser.id == dataTraining.userId">{{dataTraining.aaddress}}</td>
+          <td *ngIf="dataUser.id == dataTraining.userId">{{dataTraining.city}}</td>
+          <td *ngIf="dataUser.id == dataTraining.userId">
+            <button class="Allbtn btn btn-outline-danger" matTooltip="מחיקה" (click) = "DeleteAllUsersData(dataUser.id)"><mat-icon>delete</mat-icon></button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </mat-tab>
+
+  <!-- מספרות -->
+  <mat-tab label="משתמשים - מספרות"><br><br><br>
+    <table class="table table-bordered mat-elevation-z8 mat-table">
+      <thead>
+        <tr class="DirName">
+          <th>מספר מזהה:</th>
+          <th>שם פרטי:</th>
+          <th>שם משפחה:</th>
+          <th>אימייל:</th>
+          <th>מס טלפון:</th>
+          <th>שם העסק:</th>
+          <th>כתובת:</th>
+          <th>עיר:</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let dataUser of UserCustomer">
+        <tr class="trDir" *ngFor="let dataBarberShop of BarberShopCustomer">
+          <td *ngIf="dataUser.id == dataBarberShop.userId">{{dataUser.id}}</td>
+          <td *ngIf="dataUser.id == dataBarberShop.userId">{{dataUser.firstName}}</td>
+          <td *ngIf="dataUser.id == dataBarberShop.userId">{{dataUser.lastName}}</td>
+          <td *ngIf="dataUser.id == dataBarberShop.userId">{{dataUser.email}}</td>
+          <td *ngIf="dataUser.id == dataBarberShop.userId">{{dataUser.phone}}</td>
+          <td *ngIf="dataUser.id == dataBarberShop.userId">{{dataBarberShop.nameBarberShop}}</td>
+          <td *ngIf="dataUser.id == dataBarberShop.userId">{{dataBarberShop.aaddress}}</td>
+          <td *ngIf="dataUser.id == dataBarberShop.userId">{{dataBarberShop.city}}</td>
+          <td *ngIf="dataUser.id == dataBarberShop.userId">
+            <button class="Allbtn btn btn-outline-danger" matTooltip="מחיקה" (click) = "DeleteAllUsersData(dataUser.id)"><mat-icon>delete</mat-icon></button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </mat-tab>
+
+  <!-- פנסיונים -->
+  <mat-tab label="משתמשים - פנסיונים"><br><br><br>
+      <table class="table table-bordered mat-elevation-z8 mat-table">
+        <thead>
+          <tr class="DirName">
+            <th>מספר מזהה:</th>
+            <th>שם פרטי:</th>
+            <th>שם משפחה:</th>
+            <th>אימייל:</th>
+            <th>מס טלפון:</th>
+            <th>שם העסק:</th>
+            <th>כתובת:</th>
+            <th>עיר:</th>
+          </tr>
+        </thead>
+        <tbody *ngFor="let dataUser of UserCustomer">
+          <tr class="trDir" *ngFor="let dataPension of PensionCustomer">
+            <td *ngIf="dataUser.id == dataPension.userId">{{dataUser.id}}</td>
+            <td *ngIf="dataUser.id == dataPension.userId">{{dataUser.firstName}}</td>
+            <td *ngIf="dataUser.id == dataPension.userId">{{dataUser.lastName}}</td>
+            <td *ngIf="dataUser.id == dataPension.userId">{{dataUser.email}}</td>
+            <td *ngIf="dataUser.id == dataPension.userId">{{dataUser.phone}}</td>
+            <td *ngIf="dataUser.id == dataPension.userId">{{dataPension.nameBusiness}}</td>
+            <td *ngIf="dataUser.id == dataPension.userId">{{dataPension.aaddress}}</td>
+            <td *ngIf="dataUser.id == dataPension.userId">{{dataPension.city}}</td>
+            <td *ngIf="dataUser.id == dataPension.userId">
+              <button class="Allbtn btn btn-outline-danger" matTooltip="מחיקה" (click) = "DeleteAllUsersData(dataUser.id)"><mat-icon>delete</mat-icon></button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+  </mat-tab>
+
+  <!-- חנויות -->
+  <mat-tab label="משתמשים - חנויות" ><br><br><br>
+    <table *ngIf="openCloseEditAdd == 1" class="table table-bordered mat-elevation-z8 mat-table">
+      <thead>
+        <tr class="DirName">
+          <th>מספר מזהה:</th>
+          <th>שם העסק:</th>
+          <th>טלפון:</th>
+          <th>כתובת:</th>
+          <th>עיר:</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="trDir" *ngFor="let datashop of shopCustomer">
+          <td>{{datashop.id}}</td>
+          <td>{{datashop.nameShop}}</td>
+          <td>{{datashop.phone}}</td>
+          <td>{{datashop.aaddress}}</td>
+          <td>{{datashop.city}}</td>
+          <td>
+            <button class="Allbtn btn btn-outline-danger" matTooltip="מחיקה" (click) = "DeleteShopData(datashop.id)"><mat-icon>delete</mat-icon></button>
+            <button class="Allbtn btn btn-outline-secondary" matTooltip="עדכון" (click)="currentShop = datashop; openCloseEditAdd = 2 "><mat-icon>edit</mat-icon></button>
+          </td>
+        </tr>
+      </tbody>
+
+      <tbody>
+        <tr class="trDir">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>
+            <button class="Allbtn btn btn-outline-primary" matTooltip="הוספת בעל חנות" (click)="openCloseEditAdd = 3"><mat-icon>library_add</mat-icon></button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </mat-tab>
+
+  <!-- בעל הכלב -->
+  <mat-tab label="משתמשים - בעל הכלב"><br><br><br>
+    <table class="table table-bordered mat-elevation-z8 mat-table">
+      <thead>
+        <tr class="DirName">
+          <th>מספר מזהה:</th>
+          <th>שם פרטי:</th>
+          <th>שם משפחה:</th>
+          <th>אימייל:</th>
+          <th>מס טלפון:</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let dataUser of UserCustomer">
+        <tr class="trDir" *ngFor="let datadogowner of dogownerCustomer">
+          <td *ngIf="dataUser.id == datadogowner.userId">{{dataUser.id}}</td>
+          <td *ngIf="dataUser.id == datadogowner.userId">{{dataUser.firstName}}</td>
+          <td *ngIf="dataUser.id == datadogowner.userId">{{dataUser.lastName}}</td>
+          <td *ngIf="dataUser.id == datadogowner.userId">{{dataUser.email}}</td>
+          <td *ngIf="dataUser.id == datadogowner.userId">{{dataUser.phone}}</td>
+          <td *ngIf="dataUser.id == datadogowner.userId">
+            <button class="Allbtn btn btn-outline-danger" matTooltip="מחיקה" (click) = "DeleteAllUsersData(dataUser.id)"><mat-icon>delete</mat-icon></button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </mat-tab>
+</mat-tab-group>
+
+<app-editShop-admin *ngIf="openCloseEditAdd == 2" [editShop] = "currentShop"></app-editShop-admin>
+<app-addShop-Admin *ngIf="openCloseEditAdd == 3"></app-addShop-Admin>
+
+

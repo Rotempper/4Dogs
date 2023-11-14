@@ -1,0 +1,31 @@
+.trDir{
+  text-align: center;
+  direction: rtl;
+}
+
+.DirName{
+  text-align: center;
+  font-size: 19px;
+  line-height: 1.05;
+  letter-spacing: .0625rem;
+  letter-spacing: .0625rem;
+  color: #62554a;
+  font-family: Yeezy Tstar Bold;
+  text-align: center;
+}
+
+.mat-tab-group{
+  margin-top: 40px;
+}
+
+.Allbtn{
+  width: auto;
+  height: auto;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+
+

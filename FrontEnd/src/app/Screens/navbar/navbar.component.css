@@ -1,0 +1,26 @@
+.navbar{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.BTN{
+  border-radius: 50px;
+  background-color: white;
+  border-color: black;
+}
+
+.navBar{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn_Adit_Add{
+  text-align:start;
+}
+

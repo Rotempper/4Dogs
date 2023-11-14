@@ -1,0 +1,32 @@
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()" method="post" action="/en-us" novalidate="novalidate">
+  <mat-card class="tableLogin navbar navbar-expand-lg bg-light" style="width: 25rem;">
+    <table class="tableLogin">
+      <h2><b>כניסה:</b></h2>
+        <tr class="NameInput">
+          <!-- אימייל -->
+          <div appearance="fill">
+            <label for="email">אימייל</label><br>
+            <input class="input btn" formControlName="email" id="email" required="required" type="text"name="email" placeholder="name@example.com"><br>
+            <small class="form-text text-danger" *ngIf="loginForm.controls?.email?.touched && loginForm.controls?.email?.errors?.required">אנא מלא שדה זה</small>
+            <small class="form-text text-danger" *ngIf="loginForm.controls?.email?.errors?.pattern">כתובת מייל לא תקינה</small>
+          </div><br>
+        </tr>
+        <tr class="NameInput">
+          <!-- סיסמא -->
+          <div class="from-group">
+            <label for="password">סיסמא
+            </label><br>
+            <input class="input btn" name="password" formControlName="password" type="password">
+            <small class="form-text text-danger" *ngIf="loginForm.controls?.password?.touched && loginForm.controls?.password?.errors?.required">אנא מלא שדה זה</small>
+          </div><br>
+        </tr>
+        <tr>
+          <button class="btn btn-outline-dark" type="submit" [disabled]="loginForm.invalid">התחבר</button>
+          <a class="btn btn-outline-dark" routerLink="/CreateUser">לחץ כאן להרשם</a>
+          <div class="alert alert-danger mt-3 mb-0" *ngIf="error">{{error}}</div>
+        </tr>
+    </table>
+  </mat-card>
+</form><br>
+
+

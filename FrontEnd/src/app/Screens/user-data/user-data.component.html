@@ -1,0 +1,25 @@
+<h1>פרטי משתמש:</h1>
+  <table class = "tableUserData" *ngIf="openCloseEditAdd == 1">
+    <tr>
+      <h3>בחר את הנתונים שברצונך לעדכן:</h3><br>
+      <mat-radio-group class="radioButtonDir" [(ngModel)]="mode">
+        <mat-radio-button (click)="saveMode ='userdata'; modeFunc() ">פרטים אישים</mat-radio-button>
+        <mat-radio-button (click)="saveMode ='DogOwnerData'; modeFunc()" *ngIf="role=='DogOwnerRole'">פרטי הכלב</mat-radio-button>
+        <mat-radio-button (click)="saveMode ='BarberShopData'; modeFunc()" *ngIf="role=='BarberShopRole'">פרטי המספרה</mat-radio-button>
+        <mat-radio-button (click)="saveMode ='PensionData'; modeFunc()" *ngIf="role=='PensionRole'">פרטי הפנסיון</mat-radio-button>
+        <mat-radio-button (click)="saveMode ='TrainingData'; modeFunc()" *ngIf="role=='TrainingRole'">פרטי המאלף</mat-radio-button>
+        <mat-radio-button (click)="saveMode ='TypesHaircutData'; modeFunc()" *ngIf="role=='BarberShopRole'">פרטי תספורות</mat-radio-button>
+        <mat-radio-button (click)="saveMode ='TrainingPackageData'; modeFunc() " *ngIf="role=='TrainingRole'">פרטי חבילות אילוף</mat-radio-button>
+      </mat-radio-group>
+    </tr>
+  </table><br>
+
+  <app-edit-users *ngIf="openCloseEditAdd == 2"
+                  [editUser] = "currentUser"
+                  [editDogOwner] = "currentDogOwner"
+                  [editBarberShop] = "currentBarberShop"
+                  [editPension] = "currentPension"
+                  [editTraining] = "currentTraining" [mode]="saveMode">
+  </app-edit-users>
+
+

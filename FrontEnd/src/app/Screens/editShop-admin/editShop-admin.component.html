@@ -1,0 +1,37 @@
+<!-- דף עדכון צד מנהל -->
+<h2>עדכון משתמש - חנות:</h2>
+<form [formGroup]="EditShopForm">
+  <table>
+    <label>שם העסק:</label>
+    <tr>
+      <input class="Circle btn" type="text" formControlName="nameShop" maxlength="20" [(ngModel)]="editShop.nameShop">
+      <small class="form-text text-danger" *ngIf="EditShopForm.controls?.nameShop?.touched && EditShopForm.controls?.nameShop?.errors?.required">אנא מלא שדה זה</small>
+    </tr><br>
+
+    <label>כתובת:</label>
+    <tr>
+      <input class="Circle btn" type="text" formControlName="aaddress" maxlength="20" [(ngModel)]="editShop.aaddress">
+      <small class="form-text text-danger" *ngIf="EditShopForm.controls?.aaddress?.touched && EditShopForm.controls?.aaddress?.errors?.required">אנא מלא שדה זה</small>
+    </tr><br>
+
+    <label>טלפון:</label>
+    <tr>
+      <input class="Circle btn" type="text" formControlName="phone" minlength="10" maxlength="10" [(ngModel)]="editShop.phone"></tr>
+      <small class="form-text text-danger" *ngIf="EditShopForm.controls?.phone?.touched && EditShopForm.controls?.phone?.errors?.required">אנא מלא שדה זה</small>
+      <small class="form-text text-danger" *ngIf="EditShopForm.controls?.phone?.touched && EditShopForm.controls?.phone?.errors?.pattern">ניתן להקליד 10 ספרות</small>
+    <tr><br>
+
+    <mat-label>עיר<span class="text-danger pr-1">*</span></mat-label><br>
+    <mat-form-field class="cityInput">
+      <mat-select [(value)]="this.editShop.cityId" formControlName="cityId" [(ngModel)]="editShop.cityId" disableRipple>
+        <mat-option *ngFor="let city of allCitys" [value]="city.id">{{city.cityName}}</mat-option>
+      </mat-select>
+    </mat-form-field><br>
+
+      <div class="btnEnd">
+        <button class="btn btn-outline-secondary" (click) = "onBack()" matTooltip="הקודם"><mat-icon>arrow_forward</mat-icon></button>
+        <button class="btn btn-outline-secondary" type="submit" [disabled]="!EditShopForm.valid" (click)="EditShopData()" matTooltip="עדכן"><mat-icon>how_to_reg</mat-icon></button>
+      </div>
+    </tr>
+  </table>
+</form>

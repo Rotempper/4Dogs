@@ -1,0 +1,47 @@
+h2{
+  margin-top: 15px;
+  letter-spacing: .0725rem;
+  font-size: 1.675rem;
+  line-height: 1.05;
+  text-align: center;
+  color: #62554a;
+  font-family: Yeezy Tstar Bold;
+}
+
+/* עיצוב הטבלה - אמצע */
+.tableCreateUser{
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* עיצוב תיבה - עגול */
+.Circle{
+  border-radius: 50px;
+  background-color: white;
+}
+
+/* שם התוכן */
+.NameInput{
+  text-align: start;
+}
+
+/* מיקום כפתור */
+.buttonFin{
+  text-align: center;
+}
+
+
+/* שגיאות תיבת הזנה */
+.ng-touched {
+ border-color: red;
+}
+
+.ng-valid {
+  border-color: green;
+}
+
+.ng-intouched {
+  border-color: green;
+}

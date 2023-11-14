@@ -1,0 +1,89 @@
+<h1>הזמנת תור למאלף כלבים:</h1><br>
+
+<mat-accordion *ngFor="let Training of allTraining">
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title><b class="title"><li>{{Training.nameBusiness}}</li></b></mat-panel-title>
+      <mat-panel-description class="infoPanel">לחץ כאן לפרטי אילוף</mat-panel-description>
+    </mat-expansion-panel-header>
+
+    <h3><b>פרטים:</b></h3>
+    <div class="FirstDivTable">
+      <table class="table">
+        <thead>
+          <tr class="DirName">
+            <td><b>כתובת:</b></td>
+            <td><b> עיר:</b></td>
+            <td><b>מידע:</b></td>
+            <td><b>טלפון:</b></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{{Training.aaddress}}</td>
+            <td>{{Training.city}}</td>
+            <td>{{Training.about}}</td>
+            <td>{{Training.phone}}</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3><b>מחירון:</b></h3>
+    <div class="FirstDivTable">
+      <table class="table">
+        <thead>
+          <tr class="DirName">
+            <td><b></b></td>
+            <td><b>חבילה:</b></td>
+            <td><b>מידע:</b></td>
+            <td><b>מחיר:</b></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let TrainingPackage of allTrainingPackage">
+            <td *ngIf="TrainingPackage.trainingId == Training.id"><li></li></td>
+            <td *ngIf="TrainingPackage.trainingId == Training.id">{{TrainingPackage.trainingName}}</td>
+            <td *ngIf="TrainingPackage.trainingId == Training.id">{{TrainingPackage.ddescription}}</td>
+            <td *ngIf="TrainingPackage.trainingId == Training.id">₪{{TrainingPackage.price}}</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- הזמנה -->
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-description class="infoPanel2"><mat-icon>shopping_cart</mat-icon><b>לחץ כאן להזמנה:</b></mat-panel-description>
+      </mat-expansion-panel-header>
+      <form class="form-group" [formGroup]="DogTrainingOrder" *ngIf="auth !='{}' && role =='DogOwnerRole'" (ngSubmit)="creatDogTraining()">
+        <mat-radio-group formControlName="packagId">
+          <div *ngFor="let choice of allTrainingPackage; let i=index">
+            <div *ngIf="choice.trainingId == Training.id">
+              <label><mat-radio-button [value]="choice.id">{{choice.trainingName}}</mat-radio-button></label>
+            </div>
+          </div>
+        </mat-radio-group>
+
+        <!-- תאריך -->
+        <mat-form-field class="matFormFieldDate" appearance="fill">
+          <mat-label>בחר תאריך התחלה וסיום</mat-label>
+          <mat-date-range-input [rangePicker]="picker">
+            <input placeholder="Start date" formControlName="StartDate" matStartDate>
+            <input placeholder="End date" formControlName="EndDate" matEndDate>
+          </mat-date-range-input>
+          <mat-datepicker-toggle matSuffix [for]="picker" ></mat-datepicker-toggle>
+          <mat-date-range-picker #picker></mat-date-range-picker>
+        </mat-form-field><br>
+
+        <button class="btn btn-outline-dark" (click)="idTraining = Training.id" type="submit">אישור</button>
+        <div class="divError alert alert-success" *ngIf="ok">{{ok}}</div><br>
+        <div class="divError alert alert-danger" *ngIf="errorcurrentDate">{{errorcurrentDate}}</div><br>
+        <div routerLink="/Orders" *ngIf="ok">לצפיה בהזמנה לחץ כאן</div>
+      </form>
+
+      <div class="divError alert alert-danger" *ngIf="auth =='{}'">{{error}}</div>
+      <div class="divError alert alert-danger" *ngIf="auth !='{}' && role !='DogOwnerRole'">{{errorRole}}</div>
+    </mat-expansion-panel>
+  </mat-expansion-panel>
+</mat-accordion> <!-- mat-accordion -->

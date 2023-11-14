@@ -1,0 +1,37 @@
+h1{
+  margin-top: 40px;
+  font-size: 1.875rem;
+  line-height: 1.05;
+  letter-spacing: .0625rem;
+  letter-spacing: .0625rem;
+  color: #62554a;
+  font-family: Yeezy Tstar Bold;
+  text-align: center;
+}
+
+
+.trDir{
+  text-align: center;
+  direction: rtl;
+}
+
+.Arciv{
+   background-color: rgba(238, 18, 18, 0.197);
+}
+
+.DirName{
+  text-align: center;
+  font-size: 19px;
+  line-height: 1.05;
+  letter-spacing: .0625rem;
+  letter-spacing: .0625rem;
+  color: #62554a;
+  font-family: Yeezy Tstar Bold;
+  text-align: center;
+}
+
+.OrderDetails{
+  direction: rtl;
+  display:contents;
+}
+

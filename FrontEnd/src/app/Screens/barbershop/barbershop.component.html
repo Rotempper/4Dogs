@@ -1,0 +1,93 @@
+<h1> הזמנת תור לתספורת:</h1><br>
+<mat-accordion class="example-headers-align" multi *ngFor="let barbershop of allBarbershops">
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title><b class="title"><li>{{barbershop.nameBarberShop}}</li></b></mat-panel-title>
+      <mat-panel-description class="infoPanel">לחץ כאן לפרטי המספרה</mat-panel-description>
+    </mat-expansion-panel-header>
+
+    <h3><b>פרטים:</b></h3>
+    <div class="FirstDivTable">
+      <table class="table">
+        <thead>
+          <tr class="DirName">
+            <td><b>טלפון:</b></td>
+            <td><b>אודות:</b></td>
+            <td><b>כתובת:</b></td>
+            <td><b>עיר:</b></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{{barbershop.phone}}</td>
+            <td>{{barbershop.about}}</td>
+            <td>{{barbershop.aaddress}}</td>
+            <td>{{barbershop.city}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3><b>מחירון:</b></h3>
+    <div class="FirstDivTable">
+      <table class="table">
+        <thead>
+          <tr class="DirName">
+            <td><b></b></td>
+            <td><b>סוג תספורת:</b></td>
+            <td><b>מידע:</b></td>
+            <td><b>מחיר:</b></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let typesHaircut of allTypesHaircut">
+            <td *ngIf="typesHaircut.barberShopId == barbershop.id"><li></li></td>
+            <td *ngIf="typesHaircut.barberShopId == barbershop.id">{{typesHaircut.haircutName}}</td>
+            <td *ngIf="typesHaircut.barberShopId == barbershop.id">{{typesHaircut.ddescription}}</td>
+            <td *ngIf="typesHaircut.barberShopId == barbershop.id">₪{{typesHaircut.price}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- הזמנה -->
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-description class="infoPanel2"><mat-icon>shopping_cart</mat-icon><b>לחץ כאן להזמנה:</b></mat-panel-description>
+      </mat-expansion-panel-header>
+        <form class="form-group" [formGroup]="HaircutsOrder" *ngIf="auth !='{}' && role =='DogOwnerRole'" (ngSubmit)="creatHaircuts()">
+          <mat-radio-group formControlName="typesHaircutId">
+            <div class="form-group" *ngFor="let choice of allTypesHaircut; let i=index">
+              <div *ngIf="choice.barberShopId == barbershop.id">
+                <label><mat-radio-button [value]="choice.id">{{choice.haircutName}}</mat-radio-button></label>
+              </div>
+            </div>
+          </mat-radio-group>
+
+          <!-- תאריך -->
+          <mat-form-field class="matFormFieldDate">
+            <input formControlName="ddate" matInput [matDatepickerFilter]="myFilterDate" [matDatepicker]="picker" placeholder="בחר תאריך ">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field><br>
+          <!-- שעה -->
+          <label class="labelHour" for="input">בחר שעה:</label>
+          <select formControlName="hhour">
+            <option *ngFor="let option of options" [value]="option.time">{{option.time}}</option>
+          </select><br><br>
+
+          <button class="btn btn-outline-dark" type="submit" (click)="idbarbershop = barbershop.id"> קבע תור</button>
+          <div class=" divError alert alert-danger" *ngIf="errorTime">{{errorTime}}</div><br>
+          <div class=" divError alert alert-danger" *ngIf="errorcurrentDate">{{errorcurrentDate}}</div><br>
+          <div class=" divError alert alert-success" *ngIf="ok">{{ok}}</div><br>
+          <div class=" divError alert alert-warning" *ngIf="formInvalid">{{formInvalid}}</div><br>
+          <div routerLink="/Orders" *ngIf="ok">לצפיה בהזמנה לחץ כאן</div>
+        </form>
+      <div class="divError alert alert-danger" *ngIf="auth =='{}'">{{error}}</div>
+      <div class="divError alert alert-danger" *ngIf="auth !='{}' && role !='DogOwnerRole'">{{errorRole}}</div>
+    </mat-expansion-panel>
+  </mat-expansion-panel>
+</mat-accordion> <!-- mat-accordion -->
+
+
+

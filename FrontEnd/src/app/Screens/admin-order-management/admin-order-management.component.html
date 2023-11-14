@@ -1,0 +1,135 @@
+<h1>ההזמנות באתר:</h1>
+
+<mat-tab-group mat-align-tabs="center">
+  <mat-tab label="אילופים"><br><br><br>
+   <!-- אילופים -->
+    <table class="table table-bordered mat-elevation-z8 mat-table">
+      <thead>
+        <tr class="DirName">
+          <th>שם מבצע ההזמנה:</th>
+          <th>שם העסק:</th>
+          <th>סוג חבילת אילוף:</th>
+          <th>תאריך התחלה:</th>
+          <th>תאריך סיום:</th>
+          <th>כתובת:</th>
+          <th>עיר:</th>
+          <th>טלפון:</th>
+        </tr>
+      </thead>
+
+      <tbody *ngFor="let DogTraining of DatepresentDogTraining">
+        <tr class="trDir">
+          <div class="OrderDetails" *ngFor="let user of allDogowner"><td *ngIf="user.id == DogTraining.dogOwnerId">{{user.user}}</td></div>
+          <td>{{DogTraining.trainingName}}</td>
+          <td>{{DogTraining.trainingPackageName}}</td>
+          <td>{{DogTraining.startDate|date:'dd-MM-yyyy'}}</td>
+          <td>{{DogTraining.endDate|date:'dd-MM-yyyy'}}</td>
+          <div class="OrderDetails" *ngFor="let data of trainingDetails"><td *ngIf="DogTraining.trainingId == data.id">{{data.aaddress}}</td></div>
+          <div class="OrderDetails" *ngFor="let data of trainingDetails"><td *ngIf="DogTraining.trainingId == data.id">{{data.city}}</td></div>
+          <div class="OrderDetails" *ngFor="let data of trainingDetails"><td *ngIf="DogTraining.trainingId == data.id">{{data.phone}}</td></div>
+        </tr>
+      </tbody>
+
+      <h1>ארכיון:</h1>
+      <tbody class="Arciv" *ngFor="let item of DateArcivDogTraining">
+        <tr class="trDir">
+          <div class="OrderDetails" *ngFor="let user of allDogowner"><td *ngIf="user.id == item.dogOwnerId">{{user.user}}</td></div>
+          <td>{{item.trainingName}}</td>
+          <td>{{item.trainingPackageName}}</td>
+          <td>{{item.startDate|date:'dd-MM-yyyy'}}</td>
+          <td>{{item.endDate|date:'dd-MM-yyyy'}}</td>
+          <div class="OrderDetails" *ngFor="let data of trainingDetails"><td *ngIf="item.trainingId == data.id">{{data.aaddress}}</td></div>
+          <div class="OrderDetails" *ngFor="let data of trainingDetails"><td *ngIf="item.trainingId == data.id">{{data.city}}</td></div>
+          <div class="OrderDetails" *ngFor="let data of trainingDetails"><td *ngIf="item.trainingId == data.id">{{data.phone}}</td></div>
+        </tr>
+      </tbody>
+    </table>
+  </mat-tab>
+
+  <mat-tab label="מספרות"><br><br><br>
+    <!-- מספרות -->
+    <table class="table table-bordered mat-elevation-z8 mat-table">
+      <thead>
+        <tr class="DirName">
+          <th>שם מבצע ההזמנה:</th>
+          <th>שם העסק:</th>
+          <th>סוג תספורת:</th>
+          <th>תאריך:</th>
+          <th>שעה:</th>
+          <th>כתובת:</th>
+          <th>עיר:</th>
+          <th>טלפון:</th>
+        </tr>
+      </thead>
+
+      <tbody *ngFor="let item of DatepresentHaircut">
+        <tr class="trDir">
+          <div class="OrderDetails" *ngFor="let user of allDogowner"><td *ngIf="user.id == item.dogOwnerId">{{user.user}}</td></div>
+          <td>{{item.barberShopName}}</td>
+          <td>{{item.typesHaircutName}}</td>
+          <td>{{item.ddate|date:'dd-MM-yyyy'}}</td>
+          <td>{{item.hhour}}</td>
+          <div class="OrderDetails" *ngFor="let data of BarberShopDetails"><td *ngIf="item.barbershopId == data.id">{{data.aaddress}}</td></div>
+          <div class="OrderDetails" *ngFor="let data of BarberShopDetails"><td *ngIf="item.barbershopId == data.id">{{data.city}}</td></div>
+          <div class="OrderDetails" *ngFor="let data of BarberShopDetails"><td *ngIf="item.barbershopId == data.id">{{data.phone}}</td></div>
+        </tr>
+      </tbody>
+
+      <h1>ארכיון:</h1>
+      <tbody class="Arciv" *ngFor="let item of DateArcivHaircut">
+        <tr class="trDir">
+          <div class="OrderDetails" *ngFor="let user of allDogowner"><td *ngIf="user.id == item.dogOwnerId">{{user.user}}</td></div>
+          <td>{{item.barberShopName}}</td>
+          <td>{{item.typesHaircutName}}</td>
+          <td>{{item.ddate|date:'dd-MM-yyyy'}}</td>
+          <td>{{item.hhour}}</td>
+          <div class="OrderDetails" *ngFor="let data of BarberShopDetails"><td *ngIf="item.barbershopId == data.id">{{data.aaddress}}</td></div>
+          <div class="OrderDetails" *ngFor="let data of BarberShopDetails"><td *ngIf="item.barbershopId == data.id">{{data.city}}</td></div>
+          <div class="OrderDetails" *ngFor="let data of BarberShopDetails"><td *ngIf="item.barbershopId == data.id">{{data.phone}}</td></div>
+        </tr>
+      </tbody>
+    </table>
+  </mat-tab>
+
+  <mat-tab label="פנסיונים"><br><br><br>
+      <!-- פנסיונים -->
+      <table class="table table-bordered mat-elevation-z8 mat-table">
+        <thead>
+          <tr class="DirName">
+            <th>שם מבצע ההזמנה:</th>
+            <th>שם העסק:</th>
+            <th>תאריך התחלה:</th>
+            <th>תאריך סיום:</th>
+            <th>כתובת:</th>
+            <th>עיר:</th>
+            <th>טלפון:</th>
+          </tr>
+        </thead>
+
+        <tbody *ngFor="let item of DatepresentLodging">
+          <tr class="trDir">
+            <div class="OrderDetails" *ngFor="let user of allDogowner"><td *ngIf="user.id == item.dogOwnerId">{{user.user}}</td></div>
+            <td>{{item.pensionName}}</td>
+            <td>{{item.startDate|date:'dd-MM-yyyy'}}</td>
+            <td>{{item.endDate|date:'dd-MM-yyyy'}}</td>
+            <div class="OrderDetails" *ngFor="let data of PensionDetails"><td *ngIf="item.pensionId == data.id">{{data.aaddress}}</td></div>
+            <div class="OrderDetails" *ngFor="let data of PensionDetails"><td *ngIf="item.pensionId == data.id">{{data.city}}</td></div>
+            <div class="OrderDetails" *ngFor="let data of PensionDetails"><td *ngIf="item.pensionId == data.id">{{data.phone}}</td></div>
+            </tr>
+        </tbody>
+
+          <h1>ארכיון:</h1>
+        <tbody class="Arciv" *ngFor="let item of DateArcivLodging">
+          <tr class="trDir">
+            <div class="OrderDetails" *ngFor="let user of allDogowner"><td *ngIf="user.id == item.dogOwnerId">{{user.user}}</td></div>
+            <td>{{item.pensionName}}</td>
+            <td>{{item.startDate|date:'dd-MM-yyyy'}}</td>
+            <td>{{item.endDate|date:'dd-MM-yyyy'}}</td>
+            <div class="OrderDetails" *ngFor="let data of PensionDetails"><td *ngIf="item.pensionId == data.id">{{data.aaddress}}</td></div>
+            <div class="OrderDetails" *ngFor="let data of PensionDetails"><td *ngIf="item.pensionId == data.id">{{data.city}}</td></div>
+            <div class="OrderDetails" *ngFor="let data of PensionDetails"><td *ngIf="item.pensionId == data.id">{{data.phone}}</td></div>
+            </tr>
+        </tbody>
+      </table>
+  </mat-tab>
+</mat-tab-group>

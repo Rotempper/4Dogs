@@ -1,0 +1,30 @@
+h1{
+  margin-top: 100px;
+  font-size: 1.875rem;
+  line-height: 1.05;
+  letter-spacing: .0625rem;
+  letter-spacing: .0625rem;
+  color: #62554a;
+  font-family: Yeezy Tstar Bold;
+  text-align: center;
+}
+
+h3{
+  margin-top: 20px;
+  letter-spacing: .0625rem;
+  font-size: 1.675rem;
+  line-height: 1.05;
+  text-align: center;
+  color: #62554a;
+  font-family: Yeezy Tstar Bold;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.divAbout{
+  margin-bottom: 240px;
+}

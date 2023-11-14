@@ -1,0 +1,37 @@
+h1{
+  margin-top: 40px;
+  font-size: 1.875rem;
+  line-height: 1.05;
+  letter-spacing: .0625rem;
+  letter-spacing: .0625rem;
+  color: #62554a;
+  font-family: Yeezy Tstar Bold;
+  text-align: center;
+}
+
+.title{
+  font-size: 18px;
+}
+
+.FirstDivTable{
+  text-align: center;
+  direction: rtl;
+}
+
+.DirName{
+  text-align: center;
+  color: #62554a;
+  font-family: Yeezy Tstar Bold;
+  font-size: 19px;
+}
+
+.infoPanel{
+  /* flex-grow: inherit; */
+  padding-left: 10px;
+  direction: ltr;
+}
+
+table,td{
+  width: 400px;
+  border-style: groove;
+}

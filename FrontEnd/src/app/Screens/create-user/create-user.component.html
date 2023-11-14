@@ -1,0 +1,338 @@
+<table class="tableCreateUser">
+  <div *ngIf="radioButtonStage == 1">
+    <form [formGroup]="UserForm" (ngSubmit)="creatUser()" action="/en-us" novalidate="novalidate" method="post">
+      <tr class="NameInput">
+        <!-- שם פרטי -->
+        <label>שם פרטי<span class="text-danger pr-1">*</span></label><br>
+        <input class="Circle btn" formControlName="firstName" required="required" type="text" name="name" >
+        <small class="form-text text-danger" *ngIf="UserForm.controls?.firstName?.touched && UserForm.controls?.firstName?.errors?.required">אנא מלא שדה זה</small>
+        <small class="form-text text-danger" *ngIf="UserForm.controls?.firstName?.touched && UserForm.controls?.firstName?.errors?.pattern"> לא ניתן להקליד ספרות</small>
+      </tr><br>
+      <tr class="NameInput">
+        <!-- שם משפחה -->
+        <label>שם משפחה<span class="text-danger pr-1">*</span></label><br>
+        <input class="Circle btn" formControlName="lastName" required="required" type="text" name="lastname">
+        <small class="form-text text-danger" *ngIf="UserForm.controls?.lastName?.touched && UserForm.controls?.lastName?.errors?.required">אנא מלא שדה זה</small>
+        <small class="form-text text-danger" *ngIf="UserForm.controls?.lastName?.touched && UserForm.controls?.lastName?.errors?.pattern"> לא ניתן להקליד ספרות</small>
+      </tr><br>
+      <tr class="NameInput">
+        <!-- פלאפון -->
+        <label for="number">מס' פלאפון<span class="text-danger pr-1">*</span></label><br>
+        <input class="Circle btn" formControlName="phone" name="number" type="text" maxlength="10">
+        <small class="form-text text-danger" *ngIf="UserForm.controls?.phone?.touched && UserForm.controls?.phone?.errors?.required">אנא מלא שדה זה</small>
+        <small class="form-text text-danger" *ngIf="UserForm.controls?.phone?.touched && UserForm.controls?.phone?.errors?.pattern"> חובה להזין 10 ספרות</small>
+      </tr><br>
+      <tr class="NameInput">
+        <!-- אימייל -->
+        <label for="email">אימייל<span class="text-danger pr-1">*</span></label><br>
+        <input class="Circle btn" formControlName="email" [ngClass]="{'border-danger':EmailOk === true}" id="email" required="required" type="text" name="email">
+        <small class="form-text text-danger" *ngIf="UserForm.controls?.email?.touched && UserForm.controls?.email?.errors?.required">אנא מלא שדה זה</small>
+        <small class="form-text text-danger" *ngIf="UserForm.controls?.email?.touched && UserForm.controls?.email?.errors?.email"> אימייל זה אינו תקין</small>
+        <small class="form-text text-danger" *ngIf="EmailOk === true">איימל זה קיים במערכת</small>
+      </tr><br>
+      <tr class="NameInput">
+        <!-- סיסמא -->
+        <label for="password">סיסמא<span class="text-danger pr-1">*</span> </label><br>
+        <input class="Circle btn" formControlName="password" name="password" type="password" minlength="6" maxlength="16">
+        <small class="form-text text-danger" *ngIf="UserForm.controls?.password?.touched && UserForm.controls?.password?.errors?.required">אנא מלא שדה זה</small>
+        <small class="form-text text-danger" *ngIf="UserForm.controls?.password?.touched && UserForm.controls?.password?.errors?.pattern"> הסיסמא חייבת להכיל אותיות גדולות ,קטנות וספרות</small>
+        <small class="form-text text-danger" *ngIf="UserForm.controls?.password?.touched && UserForm.controls?.password?.errors?.minlength || UserForm.controls?.password?.errors?.maxlength">הסיסמא חייבת להכיל 6-16 תווים</small>
+      </tr><br>
+      <tr class="NameInput">
+        <!--אימות סיסמא -->
+        <label for="password">אימות סיסמא<span class="text-danger pr-1">*</span> </label><br>
+        <input class="Circle btn" formControlName="ConfirmPassword" (keyup)="checkpassword(UserForm.value.ConfirmPassword)" name="ConfirmPassword" type="password" minlength="6" maxlength="16">
+        <small class="form-text text-danger" *ngIf="UserForm.controls?.ConfirmPassword?.touched && UserForm.controls?.ConfirmPassword?.errors?.required">נא לאמת סיסמא</small>
+        <small class="form-text text-danger" *ngIf="passIsOk">אימות סיסמא נכשל</small>
+      </tr>
+      <tr><br>
+        <div class="buttonFin">
+          <button class="btn btn-outline-secondary" (click) = "onBack()" matTooltip="עבור אחורה"><mat-icon>arrow_forward</mat-icon></button>
+          <button class="btn btn-outline-dark" type="submit" [disabled]="!UserForm.valid" matTooltip="עבור קדימה"><mat-icon>arrow_back</mat-icon></button><br><br>
+        </div>
+      </tr>
+    </form>
+  </div> <!-- User -->
+</table><!-- Table 1 -->
+
+<!-- [disabled]="passIsOk"-->
+
+<!-- -----------------------------------כפתור בחירה--------------------------------------------- -->
+<section *ngIf="radioButtonStage == 0">
+  <mat-card class="matCardSection navbar navbar-expand-lg bg-light" style="width: 25rem;">
+    <h2>יצירת משתמש</h2>
+    <h3>אנא בחר אפשרות הרשמה:</h3>
+    <table class="tableCreateUser">
+      <tr>
+        <mat-radio-group [(ngModel)]="mode">
+          <mat-radio-button value="determinate">בעל כלב</mat-radio-button>
+          <mat-radio-button value="indeterminate">בעל מספרה</mat-radio-button>
+          <mat-radio-button value="buffer">בעל פנסיון</mat-radio-button>
+          <mat-radio-button value="query">מאלף כלבים</mat-radio-button>
+        </mat-radio-group>
+      </tr><br><br><br>
+      <div class="btnNext">
+        <button class="btn btn-outline-dark" type="submit" (click)="TypeLogin()">המשך</button><br>
+      </div>
+    </table> <!-- Table 2 -->
+  </mat-card>
+</section><br>
+
+<mat-card-content *ngIf="radioButtonStage == 2">
+  <!-- ++++++++++++++++פרטים בעל הכלב++++++++++++++++ -->
+  <section class="tableCreateUser" *ngIf="mode === 'determinate'">
+    <form [formGroup]="DogOwnerForm" (ngSubmit)="creatDogowner()" action="/en-us" novalidate="novalidate" method="post">
+      <table class="tableCreateUser">
+        <tr class="NameInput">
+          <!-- שם הכלב-->
+          <label for="name">שם הכלב<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" formControlName="DogName" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="DogOwnerForm.controls?.DogName?.touched && DogOwnerForm.controls?.DogName?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- מין הכלב -->
+          <label for="boolean">מין הכלב<span class="text-danger pr-1">*</span></label><br>
+          <mat-radio-group class="radioButtonInput" formControlName="DogGender">
+            <mat-radio-button [value]="false">זכר</mat-radio-button>
+            <mat-radio-button [value]="true">נקבה </mat-radio-button>
+          </mat-radio-group><br>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- מסורס / מעוקרת-->
+          <label for="name">מסורס/מעוקרת<span class="text-danger pr-1">*</span></label><br>
+          <mat-radio-group class="radioButtonInput" formControlName="Castrated">
+            <mat-radio-button [value]="false">לא</mat-radio-button>
+            <mat-radio-button [value]="true">כן </mat-radio-button>
+          </mat-radio-group><br>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- גודל הכלב -->
+          <mat-label class="NameInput">גודל הכלב S/M/L<span class="text-danger pr-1">*</span></mat-label><br>
+          <mat-form-field class="cityAndRaceAndsize">
+            <mat-select formControlName="DogSize">
+              <mat-option class="optionCityRace" *ngFor="let size of optionDogSize" [value]="size">{{size}}</mat-option>
+            </mat-select>
+            <small class="form-text text-danger" *ngIf="DogOwnerForm.controls?.DogSize?.touched && DogOwnerForm.controls?.DogSize?.errors?.required">אנא מלא שדה זה</small>
+          </mat-form-field><br>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- גזע הכלב -->
+          <mat-label class="NameInput">גזע הכלב<span class="text-danger pr-1">*</span></mat-label><br>
+          <mat-form-field class="cityAndRaceAndsize">
+            <mat-select formControlName="DogRaceId">
+              <mat-option class="optionCityRace" id="1" *ngFor="let rece of allDograce" [value]="rece.id">{{rece.raceName}}</mat-option>
+            </mat-select>
+            <small class="form-text text-danger" *ngIf="DogOwnerForm.controls?.DogRaceId?.touched && DogOwnerForm.controls?.DogRaceId?.errors?.required">אנא מלא שדה זה</small>
+          </mat-form-field><br>
+        </tr>
+        <tr class="buttonFin"><br>
+          <button class="btn btn-outline-dark" type="submit" [disabled]="!DogOwnerForm.valid">הרשם</button>
+        </tr>
+      </table> <!-- Table 3 -->
+    </form>
+  </section> <!-- בעל כלב סגירה -->
+
+
+  <!-- +++++++++++++++ פרטים של בעל מספרה +++++++++++++++ -->
+  <section *ngIf="mode === 'indeterminate'">
+    <form method="post" *ngIf="barbarTraningStage == 0 && mode === 'indeterminate'" [formGroup]="BarberShopForm" (ngSubmit)="creatBarberShop()" action="/en-us" novalidate="novalidate">
+      <table class="tableCreateUser">
+        <tr class="NameInput">
+          <!-- שם העסק -->
+          <label for="text">שם העסק<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" formControlName="nameBarberShop" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="BarberShopForm.controls?.nameBarberShop?.touched && BarberShopForm.controls?.nameBarberShop?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- כתובת המספרה -->
+          <label for="text">כתובת<span class="text-danger pr-1">*</span> </label><br>
+          <input class="Circle btn" formControlName="aaddress" required="required" type="text"><br>
+          <small class="form-text text-danger"*ngIf="BarberShopForm.controls?.aaddress?.touched && BarberShopForm.controls?.aaddress?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- טלפון -->
+          <label for="text">טלפון<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn"  maxlength="10" formControlName="phone" required="required" type="text"><br>
+          <small class="form-text text-danger"*ngIf="BarberShopForm.controls?.phone?.touched && BarberShopForm.controls?.phone?.errors?.required">אנא מלא שדה זה</small>
+          <small class="form-text text-danger"*ngIf="BarberShopForm.controls?.phone?.touched && BarberShopForm.controls?.phone?.errors?.pattern"> חובה להזין 10 ספרות</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- מידע -->
+          <label for="text">מידע<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn about" formControlName="about" required="required" type="text"><br>
+          <small class="form-text text-danger"*ngIf="BarberShopForm.controls?.about?.touched && BarberShopForm.controls?.about?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- עיר -->
+          <mat-label>עיר<span class="text-danger pr-1">*</span></mat-label><br>
+          <mat-form-field class="cityAndRaceAndsize">
+            <mat-select formControlName="cityId" disableRipple>
+              <mat-option class="optionCityRace" *ngFor="let city of allCitys" [value]="city.id">{{city.cityName}}</mat-option>
+            </mat-select>
+            <small class="form-text text-danger"*ngIf="BarberShopForm.controls?.cityId?.touched && BarberShopForm.controls?.cityId?.errors?.required">אנא מלא שדה זה</small>
+          </mat-form-field><br>
+        </tr>
+        <tr class="buttonFin"><br>
+          <button class="btn btn-outline-dark" type="submit" [disabled]="!BarberShopForm.valid">המשך</button>
+        </tr>
+      </table> <!-- Table 4 -->
+    </form>
+
+      <!-- +++++++++++++++  פרטים של סוג תספורת  +++++++++++++++ -->
+    <form  method="post" *ngIf="barbarTraningStage==1  && mode === 'indeterminate'" [formGroup]="TypesHaircutForm" (ngSubmit)="creatTypesHaircut()" action="/en-us" novalidate="novalidate">
+      <h2>מחירון תספורות:</h2>
+      <table class="tableCreateUser">
+        <tr class="NameInput">
+          <!-- שם תספורת -->
+          <label for="text">שם תספורת<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" formControlName="haircutName" required="required" type="text"><br>
+          <small class="form-text text-danger"*ngIf="TypesHaircutForm.controls?.haircutName?.touched && TypesHaircutForm.controls?.haircutName?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- תיאור תספורת  -->
+          <label for="text">תיאור תספורת<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn about" formControlName="ddescription" required="required" type="text"><br>
+          <small class="form-text text-danger"*ngIf="TypesHaircutForm.controls?.ddescription?.touched && TypesHaircutForm.controls?.ddescription?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- מחיר תספורת  -->
+          <label for="text">מחיר תספורת<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" formControlName="price" required="required" type="number"><br>
+          <small class="form-text text-danger"*ngIf="TypesHaircutForm.controls?.price?.touched && TypesHaircutForm.controls?.price?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="buttonFin"><br>
+          <button class="btn btn-outline-dark" type="submit" [disabled]="!TypesHaircutForm.valid">הוסף</button><br><br>
+          <button class="btn btn-outline-dark" (click)="finish()">הרשם</button>
+        </tr>
+      </table> <!-- Table 5 -->
+    </form>
+  </section><!--  סוגר בעל מספרה  -->
+
+
+  <!-- +++++++++++++++ פרטים של בעל פנסיון  +++++++++++++++ -->
+  <section *ngIf="mode === 'buffer'">
+    <form method="post" [formGroup]="PensionForm" (ngSubmit)="creatPension()" action="/en-us" novalidate="novalidate">
+      <table class="tableCreateUser">
+        <tr class="NameInput">
+          <!-- שם העסק -->
+          <label for="text">שם העסק<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" formControlName="nameBusiness" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="PensionForm.controls?.nameBusiness?.touched && PensionForm.controls?.nameBusiness?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- כתובת הפנסיון -->
+          <label for="text">כתובת<span class="text-danger pr-1">*</span> </label><br>
+          <input class="Circle btn" formControlName="aaddress" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="PensionForm.controls?.aaddress?.touched && PensionForm.controls?.aaddress?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- טלפון -->
+          <label for="text">טלפון<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn"  maxlength="10" formControlName="phone" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="PensionForm.controls?.phone?.touched && PensionForm.controls?.phone?.errors?.required">אנא מלא שדה זה</small>
+          <small class="form-text text-danger" *ngIf="PensionForm.controls?.phone?.touched && PensionForm.controls?.phone?.errors?.pattern"> חובה להזין 10 ספרות</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- מחיר ללילה -->
+          <label for="text">מחיר ללילה<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" formControlName="pricePerForNight" required="required" type="number"><br>
+          <small class="form-text text-danger" *ngIf="PensionForm.controls?.pricePerForNight?.touched && PensionForm.controls?.pricePerForNight?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!--מידע -->
+          <label for="text">מידע<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn about" formControlName="about" required="required" type="text"><br><br>
+          <small class="form-text text-danger" *ngIf="PensionForm.controls?.about?.touched && PensionForm.controls?.about?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!--עיר -->
+          <mat-label>עיר<span class="text-danger pr-1">*</span></mat-label><br>
+          <mat-form-field class="cityAndRaceAndsize">
+            <mat-select formControlName="cityId" disableRipple>
+              <mat-option class="optionCityRace" *ngFor="let city of allCitys" [value]="city.id">{{city.cityName}}</mat-option>
+            </mat-select>
+            <small class="form-text text-danger" *ngIf="PensionForm.controls?.cityId?.touched && PensionForm.controls?.cityId?.errors?.required">אנא מלא שדה זה</small>
+          </mat-form-field><br>
+        </tr>
+        <tr class="buttonFin"><br>
+          <button class="btn btn-outline-dark" type="submit" [disabled]="!PensionForm.valid">הרשם</button><br>
+        </tr>
+      </table> <!-- Table 6 -->
+    </form>
+  </section><!--  סוגר בעל פנסיון  -->
+
+
+  <!-- +++++++++++++++ פרטים של מאלף כלבים +++++++++++++++++-->
+  <section class="" *ngIf="mode === 'query'">
+    <form method="post"  *ngIf="barbarTraningStage==0 && mode === 'query'" [formGroup]="TrainingForm" (ngSubmit)="creatTraining()" action="/en-us" novalidate="novalidate">
+      <table class="tableCreateUser">
+        <tr class="NameInput">
+          <!-- שם העסק -->
+          <label for="text">שם העסק<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" formControlName="nameBusiness" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="TrainingForm.controls?.nameBusiness?.touched && TrainingForm.controls?.nameBusiness?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- כתובת העסק -->
+          <label for="text">כתובת<span class="text-danger pr-1">*</span> </label><br>
+          <input class="Circle btn" formControlName="aaddress" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="TrainingForm.controls?.aaddress?.touched && TrainingForm.controls?.aaddress?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- טלפון -->
+          <label for="text">טלפון<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" maxlength="10" formControlName="phone" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="TrainingForm.controls?.phone?.touched && TrainingForm.controls?.phone?.errors?.required">אנא מלא שדה זה</small>
+          <small class="form-text text-danger" *ngIf="TrainingForm.controls?.phone?.touched && TrainingForm.controls?.phone?.errors?.pattern"> חובה להזין 10 ספרות</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- מידע -->
+          <label for="text">מידע<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn about" formControlName="about" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="TrainingForm.controls?.about?.touched && TrainingForm.controls?.about?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- עיר -->
+          <mat-label class="">עיר<span class="text-danger pr-1">*</span></mat-label><br>
+          <mat-form-field class="cityAndRaceAndsize">
+            <mat-select formControlName="cityId" disableRipple>
+              <mat-option class="optionCityRace" *ngFor="let city of allCitys" [value]="city.id">{{city.cityName}}</mat-option>
+            </mat-select>
+            <small class="form-text text-danger" *ngIf="TrainingForm.controls?.cityId?.touched && TrainingForm.controls?.cityId?.errors?.required">אנא מלא שדה זה</small>
+          </mat-form-field><br>
+        </tr>
+        <tr class="buttonFin"><br>
+          <button class="btn btn-outline-dark" type="submit" [disabled]="!TrainingForm.valid">המשך</button>
+        </tr>
+      </table> <!-- Table 6 -->
+    </form>
+
+    <form *ngIf="barbarTraningStage==1 && mode === 'query'"  [formGroup]="TrainingPackageForm" (ngSubmit)="creatTrainingPackage()">
+      <h2> מחירון חבילת אילוף: </h2>
+      <table class="tableCreateUser">
+        <tr class="NameInput">
+          <!-- סוג האילוף -->
+          <label for="text">סוג האילוף<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" formControlName="trainingName" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="TrainingPackageForm.controls?.trainingName?.touched && TrainingPackageForm.controls?.trainingName?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- תיאור האילוף  -->
+          <label for="text">תיאור האילוף<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn about" formControlName="ddescription" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="TrainingPackageForm.controls?.ddescription?.touched && TrainingPackageForm.controls?.ddescription?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- מחיר האילוף  -->
+          <label for="text">מחיר האילוף<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" formControlName="price" required="required" type="number"><br>
+          <small class="form-text text-danger" *ngIf="TrainingPackageForm.controls?.price?.touched && TrainingPackageForm.controls?.price?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="buttonFin"><br>
+          <button class="btn btn-outline-dark" type="submit" [disabled]="!TrainingPackageForm.valid">הוסף</button><br><br>
+          <button class="btn btn-outline-dark" (click)="finish()">הרשם</button>
+        </tr>
+      </table> <!-- Table 6 -->
+    </form>
+  </section><!--  סוגר מאלף כלבים  -->
+</mat-card-content><br><!-- כפתורי בחירה סוגר -->

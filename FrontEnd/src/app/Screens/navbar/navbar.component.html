@@ -1,0 +1,35 @@
+<table class="navbar navbar-expand-lg bg-light">
+  <tr class="navBar">
+    <td class="UserName" *ngIf="AutService.GetSetUserName">שלום, {{AutService.GetSetUserName}}</td>
+
+    <td>
+      <div ngbDropdown class="d-inline-block">
+        <button class="btn btn-outline-dark" *ngIf="auth !='{}' && role!='Admin'" type="button" id="dropdownBasic1" ngbDropdownToggle>משתמש</button>
+        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+          <td><button class="btn_Adit_Add" (click) = "onUserData()" type="submit" ngbDropdownItem>עריכה</button></td>
+          <td><button class="btn_Adit_Add" (click) = "onAddUser()" *ngIf=" auth !='{}' && role =='BarberShopRole' || role =='TrainingRole'" ngbDropdownItem>הוספה</button></td>
+        </div>
+      </div>
+    </td>
+
+    <td>
+      <div ngbDropdown class="d-inline-block">
+        <button class="btn btn-outline-dark" *ngIf="auth !='{}' && role=='Admin'" type="button" id="dropdownBasic1" ngbDropdownToggle>מנהל</button>
+        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+          <td><button class="btn_Adit_Add" (click) = "onAdmin()" type="submit" ngbDropdownItem *ngIf="auth !='{}' && role=='Admin'">משתמשים</button></td><br>
+          <td><button class="btn_Adit_Add" (click) = "onAdminOrderManagement()" type="submit" *ngIf="auth !='{}' && role=='Admin'" ngbDropdownItem>הזמנות</button></td>
+        </div>
+      </div>
+    </td>
+
+    <td><button class="btn btn-outline-dark" (click) = "onLogin()" type="submit" *ngIf="auth =='{}'">התחבר</button></td>
+    <td><button class="btn btn-outline-dark" (click) = "Logout()" type="submit" mat-raised-button *ngIf="auth !='{}'">התנתק</button></td>
+    <td><button class="btn btn-outline-dark" (click) = "onCreateUser()" type="submit" *ngIf="auth =='{}'">הרשמה</button></td>
+    <td><button class="btn btn-outline-dark" (click) = "onHomePage()" type="submit">דף הבית</button></td>
+    <td><button class="btn btn-outline-dark" (click) = "onOrders()" type="submit" *ngIf="auth !='{}' && role!='Admin' && role=='DogOwnerRole'">הזמנות</button></td>
+    <td><button class="btn btn-outline-dark" (click) = "onTheDiary()" type="submit" *ngIf="auth !='{}' && role!='Admin' && role!='DogOwnerRole'">היומן שלי</button></td>
+    <td><button class="btn btn-outline-dark" (click) = "onAbout()" type="submit">קצת עלינו</button></td>
+  </tr>
+</table>
+
+

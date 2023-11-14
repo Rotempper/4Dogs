@@ -1,0 +1,389 @@
+<!-- ++++++++++++++++ עדכון משתמש ++++++++++++++++ -->
+<table class="tableUserData" *ngIf="mode == 'userdata'">
+  <div>
+    <form [formGroup]="EditUserData" (ngSubmit)="EditUser()" action="/en-us" novalidate="novalidate" method="post">
+      <table>
+        <tr class="NameInput">
+          <!-- שם פרטי -->
+          <label>שם פרטי<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" formControlName="firstName" [(ngModel)]="editUser.firstName" required="required" type="text" name="name">
+          <small class="form-text text-danger" *ngIf="EditUserData.controls?.firstName?.touched && EditUserData.controls?.firstName?.errors?.required">אנא מלא שדה זה</small>
+          <small class="form-text text-danger" *ngIf="EditUserData.controls?.firstName?.touched && EditUserData.controls?.firstName?.errors?.pattern"> לא ניתן להקליד ספרות</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- שם משפחה -->
+          <label>שם משפחה<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" formControlName="lastName" [(ngModel)]="editUser.lastName" required="required" type="text" name="lastname">
+          <small class="form-text text-danger" *ngIf="EditUserData.controls?.lastName?.touched && EditUserData.controls?.lastName?.errors?.required">אנא מלא שדה זה</small>
+          <small class="form-text text-danger" *ngIf="EditUserData.controls?.lastName?.touched && EditUserData.controls?.lastName?.errors?.pattern"> לא ניתן להקליד ספרות</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- פלאפון -->
+          <label for="number">מס' פלאפון<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" formControlName="phone" [(ngModel)]="editUser.phone" name="number" type="text" maxlength="10">
+          <small class="form-text text-danger" *ngIf="EditUserData.controls?.phone?.touched && EditUserData.controls?.phone?.errors?.required">אנא מלא שדה זה</small>
+          <small class="form-text text-danger" *ngIf="EditUserData.controls?.phone?.touched && EditUserData.controls?.phone?.errors?.pattern"> חובה להזין 10 ספרות</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- אימייל --> <!-- לעשות חסום -->
+          <label for="email">אימייל<span class="text-danger pr-1">*</span></label><br>
+          <input readonly class="Circle btn" formControlName="email" [(ngModel)]="editUser.email" [ngClass]="{'border-danger':EmailOk === true}" id="email" type="text" name="email">
+          <!-- required="required" -->
+          <small class="form-text text-danger" *ngIf="EditUserData.controls?.email?.touched && EditUserData.controls?.email?.errors?.required">אנא מלא שדה זה</small>
+          <small class="form-text text-danger" *ngIf="EditUserData.controls?.email?.touched && EditUserData.controls?.email?.errors?.email"> אימייל זה אינו תקין</small>
+          <!-- <small class="form-text text-danger" *ngIf="EmailOk === true">איימל זה קיים במערכת</small> -->
+        </tr><br>
+        <tr class="NameInput">
+          <!-- סיסמא -->
+          <label for="password">סיסמא<span class="text-danger pr-1">*</span> </label><br>
+          <input class="Circle btn" formControlName="password"  name="password" type="password" minlength="6" maxlength="16">
+          <small class="form-text text-danger" *ngIf="EditUserData.controls?.password?.touched && EditUserData.controls?.password?.errors?.required">אנא מלא שדה זה</small>
+          <small class="form-text text-danger" *ngIf="EditUserData.controls?.password?.touched && EditUserData.controls?.password?.errors?.pattern"> הסיסמא חייבת להכיל אותיות גדולות ,קטנות וספרות</small>
+          <small class="form-text text-danger" *ngIf="EditUserData.controls?.password?.touched && EditUserData.controls?.password?.errors?.minlength || EditUserData.controls?.password?.errors?.maxlength">הסיסמא חייבת להכיל 6-16 תווים</small>
+        </tr><br>
+        <tr class="buttonFin">
+          <button class="btn btn-outline-secondary" (click) = "onBack()" matTooltip="הקודם"><mat-icon>arrow_forward</mat-icon></button>
+          <button class="btn btn-outline-secondary" type="submit" [disabled]="!EditUserData.valid" matTooltip="ערוך"><mat-icon>edit</mat-icon></button>
+        </tr>
+      </table>
+    </form>
+  </div>
+</table>
+<!-- readonly -->
+<!-- ++++++++++++++++ עדכון בעל הכלב ++++++++++++++++ -->
+<table class="tableUserData" *ngIf="mode == 'DogOwnerData'">
+  <div>
+    <form [formGroup]="EditDogownerData" (ngSubmit)="EditDogowner()" action="/en-us" novalidate="novalidate" method="post">
+      <table class="tableCreateUser">
+        <tr class="NameInput">
+          <!-- שם הכלב-->
+          <label for="name">שם הכלב<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" formControlName="dogName" [(ngModel)]="editDogOwner.dogName" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="EditDogownerData.controls?.dogName?.touched && EditDogownerData.controls?.dogName?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+
+        <tr class="NameInput">
+          <!-- גודל הכלב -->
+            <label for="name">גודל הכלב S/M/L<span class="text-danger pr-1">*</span></label><br>
+            <mat-form-field class="cityAndRace">
+              <mat-select formControlName="dogSize" [(ngModel)]="editDogOwner.dogSize">
+                <mat-option class="optionCityRace" *ngFor="let size of optionDogSize" [value]="size">{{size}}</mat-option>
+              </mat-select>
+            </mat-form-field><br>
+              <small class="form-text text-danger" *ngIf="EditDogownerData.controls?.DogSize?.touched && EditDogownerData.controls?.DogSize?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+
+        <tr class="NameInput">
+          <!-- מין הכלב -->
+          <label for="boolean">מין הכלב<span class="text-danger pr-1">*</span></label><br>
+          <mat-radio-group class="radioButtonInput" formControlName="dogGender" [(ngModel)]="editDogOwner.dogGender">
+            <mat-radio-button [value]="false">זכר</mat-radio-button>
+            <mat-radio-button [value]="true">נקבה </mat-radio-button>
+          </mat-radio-group><br>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- מסורס / מעוקרת-->
+          <label for="name">מסורס/מעוקרת<span class="text-danger pr-1">*</span></label><br>
+          <mat-radio-group class="radioButtonInput" formControlName="castrated" [(ngModel)]="editDogOwner.castrated">
+            <mat-radio-button [value]="false">לא</mat-radio-button>
+            <mat-radio-button [value]="true">כן </mat-radio-button>
+          </mat-radio-group><br>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- גזע הכלב -->
+          <mat-label class="NameInput">גזע הכלב<span class="text-danger pr-1">*</span></mat-label><br>
+          <mat-form-field class="cityAndRace">
+            <mat-select formControlName="dogRaceId" [(ngModel)]="editDogOwner.dogRaceId">
+              <mat-option class="optionCityRace" id="1" *ngFor="let rece of allDograce" [value]="rece.id">{{rece.raceName}}</mat-option>
+            </mat-select>
+            <small class="form-text text-danger" *ngIf="EditDogownerData.controls?.DogRaceId?.touched && EditDogownerData.controls?.DogRaceId?.errors?.required">אנא מלא שדה זה</small>
+          </mat-form-field><br>
+        </tr>
+        <tr class="buttonFin"><br>
+          <button class="btn btn-outline-secondary" (click) = "onBack()" matTooltip="הקודם"><mat-icon>arrow_forward</mat-icon></button>
+          <button class="btn btn-outline-secondary" type="submit" [disabled]="!EditDogownerData.valid" matTooltip="ערוך"><mat-icon>edit</mat-icon></button>
+        </tr><br>
+      </table>
+    </form>
+  </div>
+</table>
+
+<!-- ++++++++++++++++ עדכון בעל פנסיון ++++++++++++++++ -->
+<table class="tableUserData" *ngIf="mode == 'PensionData'">
+  <div>
+    <form method="post" [formGroup]="EditPensionData" (ngSubmit)="EditPension()" action="/en-us" novalidate="novalidate">
+      <table class="tableCreateUser">
+        <tr class="NameInput">
+          <!-- שם העסק -->
+          <label for="text">שם העסק<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" formControlName="nameBusiness" [(ngModel)]="editPension.nameBusiness" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="EditPensionData.controls?.nameBusiness?.touched && EditPensionData.controls?.nameBusiness?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- כתובת  -->
+          <label for="text">כתובת<span class="text-danger pr-1">*</span> </label><br>
+          <input class="Circle btn" formControlName="aaddress" [(ngModel)]="editPension.aaddress" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="EditPensionData.controls?.aaddress?.touched && EditPensionData.controls?.aaddress?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <!-- מחיר ללילה -->
+        <tr class="NameInput">
+          <label for="text">מחיר ללילה<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" formControlName="pricePerForNight" [(ngModel)]="editPension.pricePerForNight"required="required" type="number"><br>
+          <small class="form-text text-danger" *ngIf="EditPensionData.controls?.pricePerForNight?.touched && EditPensionData.controls?.pricePerForNight?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- טלפון -->
+          <label for="text">טלפון<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" formControlName="phone" [(ngModel)]="editPension.phone" maxlength="10" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="EditPensionData.controls?.phone?.touched && EditPensionData.controls?.phone?.errors?.required">אנא מלא שדה זה</small>
+          <small class="form-text text-danger" *ngIf="EditPensionData.controls?.phone?.touched && EditPensionData.controls?.phone?.errors?.pattern"> חובה להזין 10 ספרות</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- מידע -->
+          <label for="text">מידע<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn about" formControlName="about" [(ngModel)]="editPension.about" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="EditPensionData.controls?.about?.touched && EditPensionData.controls?.about?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- עיר -->
+          <mat-label>עיר<span class="text-danger pr-1">*</span></mat-label><br>
+          <mat-form-field class="cityAndRace">
+            <mat-select formControlName="cityId" [(ngModel)]="editPension.cityId" disableRipple>
+              <mat-option  class="optionCityRace" *ngFor="let city of allCitys" [value]="city.id">{{city.cityName}}</mat-option>
+            </mat-select>
+            <small class="form-text text-danger"*ngIf="EditPensionData.controls?.cityId?.touched && EditPensionData.controls?.cityId?.errors?.required">אנא מלא שדה זה</small>
+          </mat-form-field><br>
+        </tr>
+        <tr class="buttonFin"><br>
+          <button class="btn btn-outline-secondary" (click) = "onBack()" matTooltip="הקודם"><mat-icon>arrow_forward</mat-icon></button>
+          <button class="btn btn-outline-secondary" type="submit" [disabled]="!EditPensionData.valid" matTooltip="ערוך"><mat-icon>edit</mat-icon></button>
+        </tr><br>
+      </table>
+    </form>
+  </div>
+</table>
+
+<!-- ++++++++++++++++ עדכון בעל מספרה ++++++++++++++++ -->
+<table class="tableUserData" *ngIf="mode == 'BarberShopData'">
+  <div>
+    <form method="post" [formGroup]="EditBarberShopData" (ngSubmit)="EditBarberShop()" action="/en-us" novalidate="novalidate">
+      <table>
+        <tr class="NameInput">
+          <!-- שם העסק -->
+          <label for="text">שם העסק<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" formControlName="nameBarberShop" [(ngModel)]="editBarberShop.nameBarberShop" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="EditBarberShopData.controls?.nameBarberShop?.touched && EditBarberShopData.controls?.nameBarberShop?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- כתובת המספרה -->
+          <label for="text">כתובת<span class="text-danger pr-1">*</span> </label><br>
+          <input class="Circle btn" formControlName="aaddress" [(ngModel)]="editBarberShop.aaddress" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="EditBarberShopData.controls?.aaddress?.touched && EditBarberShopData.controls?.aaddress?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- טלפון -->
+          <label for="text">טלפון<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" formControlName="phone" [(ngModel)]="editBarberShop.phone" maxlength="10" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="EditBarberShopData.controls?.phone?.touched && EditBarberShopData.controls?.phone?.errors?.required">אנא מלא שדה זה</small>
+          <small class="form-text text-danger" *ngIf="EditBarberShopData.controls?.phone?.touched && EditBarberShopData.controls?.phone?.errors?.pattern"> חובה להזין 10 ספרות</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- מידע -->
+          <label for="text">מידע<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn about" formControlName="about" [(ngModel)]="editBarberShop.about" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="EditBarberShopData.controls?.about?.touched && EditBarberShopData.controls?.about?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- עיר -->
+          <mat-label>עיר<span class="text-danger pr-1">*</span></mat-label><br>
+          <mat-form-field class="cityAndRace">
+            <mat-select formControlName="cityId" [(ngModel)]="editBarberShop.cityId" disableRipple>
+              <mat-option class="optionCityRace" *ngFor="let city of allCitys" [value]="city.id">{{city.cityName}}</mat-option>
+            </mat-select>
+            <small class="form-text text-danger" *ngIf="EditBarberShopData.controls?.cityId?.touched && EditBarberShopData.controls?.cityId?.errors?.required">אנא מלא שדה זה</small>
+          </mat-form-field><br>
+        </tr>
+        <tr class="buttonFin"><br>
+          <button class="btn btn-outline-secondary" (click) = "onBack()" matTooltip="הקודם"><mat-icon>arrow_forward</mat-icon></button>
+          <button class="btn btn-outline-secondary" type="submit" [disabled]="!EditBarberShopData.valid" matTooltip="ערוך"><mat-icon>edit</mat-icon></button>
+        </tr><br>
+      </table>
+    </form>
+  </div>
+</table>
+
+
+
+<!-- ++++++++++++++++ עדכון תספורת  ++++++++++++++++ -->
+<table class="tableUserData" *ngIf="mode == 'TypesHaircutData'">
+  <!-- הצגת נתונים -->
+  <table class="table table-bordered mat-elevation-z8 mat-table" *ngIf="openCloseEditAdd == 1;">
+    <thead>
+      <tr class="DirName">
+        <th><b>שם התספורת:</b></th>
+        <th><b>מידע:</b></th>
+        <th><b>מחיר:</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="trDir" *ngFor="let typesHaircut of allTypesHaircut">
+        <td *ngIf="this.currentBarberShopId.id == typesHaircut.barberShopId">{{typesHaircut.haircutName}}</td>
+        <td *ngIf="this.currentBarberShopId.id == typesHaircut.barberShopId">{{typesHaircut.ddescription}}</td>
+        <td *ngIf="this.currentBarberShopId.id == typesHaircut.barberShopId">₪{{typesHaircut.price}}</td>
+        <td *ngIf="this.currentBarberShopId.id == typesHaircut.barberShopId">
+          <button class="Allbtn btn btn-outline-danger" matTooltip="מחיקה" (click) ="DeleteTypesHaircutById(typesHaircut.id)"><mat-icon>delete</mat-icon></button>
+          <button class="Allbtn btn btn-outline-secondary" matTooltip="עדכון" (click)="TypesHaircutObjUpdate = typesHaircut; openCloseEditAdd = 2"><mat-icon>edit</mat-icon></button>
+        </td>
+      </tr>
+      <tr class="trDir">
+        <button class="backBtn btn btn-light" (click) = "onBack()" matTooltip="הקודם"><mat-icon>arrow_forward</mat-icon></button>
+      </tr>
+    </tbody>
+  </table><br>
+
+  <!-- עריכה/מחיקת נתונים -->
+  <div *ngIf="openCloseEditAdd == 2;">
+    <form method="post" [formGroup]="EditTypesHaircutData" (ngSubmit)="EditTypesHaircut()" action="/en-us" novalidate="novalidate">
+      <table class="tableCreateUser">
+        <tr class="NameInput">
+          <!-- שם תספורת -->
+          <label for="text">שם תספורת<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" formControlName="haircutName" [(ngModel)]="this.TypesHaircutObjUpdate.haircutName" required="required" type="text"><br>
+          <small class="form-text text-danger"*ngIf="EditTypesHaircutData.controls?.haircutName?.touched && EditTypesHaircutData.controls?.haircutName?.errors?.pattern">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- תיאור תספורת  -->
+          <label for="text">תיאור תספורת<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn about" formControlName="ddescription" [(ngModel)]="this.TypesHaircutObjUpdate.ddescription" required="required" type="text"><br>
+          <small class="form-text text-danger"*ngIf="EditTypesHaircutData.controls?.ddescription?.touched && EditTypesHaircutData.controls?.ddescription?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- מחיר תספורת  -->
+          <label for="text">מחיר תספורת<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" formControlName="price" [(ngModel)]="this.TypesHaircutObjUpdate.price" required="required" type="number"><br>
+          <small class="form-text text-danger"*ngIf="EditTypesHaircutData.controls?.price?.touched && EditTypesHaircutData.controls?.price?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="buttonFin"><br>
+          <button class="btn btn-outline-secondary" (click) = "onBack()" matTooltip="הקודם"><mat-icon>arrow_forward</mat-icon></button>
+          <button class="btn btn-outline-secondary" type="submit" [disabled]="!EditTypesHaircutData.valid" matTooltip="אישור"><mat-icon>done</mat-icon></button><br>
+        </tr><br>
+      </table>
+    </form>
+  </div>
+</table>
+
+
+<!-- ++++++++++++++++ עדכון מאלף כלבים ++++++++++++++++ -->
+<table class="tableUserData" *ngIf="mode == 'TrainingData'">
+  <div>
+    <form method="post" [formGroup]="EditTrainingData" (ngSubmit)="EditTrainin()" action="/en-us" novalidate="novalidate">
+      <table class="tableCreateUser">
+        <tr class="NameInput">
+          <!-- שם העסק -->
+          <label for="text">שם העסק<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" formControlName="nameBusiness" [(ngModel)]="editTraining.nameBusiness" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="EditTrainingData.controls?.nameBusiness?.touched && EditTrainingData.controls?.nameBusiness?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- כתובת  -->
+          <label for="text">כתובת<span class="text-danger pr-1">*</span> </label><br>
+          <input class="Circle btn" formControlName="aaddress" [(ngModel)]="editTraining.aaddress" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="EditTrainingData.controls?.aaddress?.touched && EditTrainingData.controls?.aaddress?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- טלפון -->
+          <label for="text">טלפון<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" formControlName="phone" [(ngModel)]="editTraining.phone" maxlength="10" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="EditTrainingData.controls?.phone?.touched && EditTrainingData.controls?.phone?.errors?.required">אנא מלא שדה זה</small>
+          <small class="form-text text-danger" *ngIf="EditTrainingData.controls?.phone?.touched && EditTrainingData.controls?.phone?.errors?.pattern"> חובה להזין 10 ספרות</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- מידע -->
+          <label for="text">מידע<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn about" formControlName="about" [(ngModel)]="editTraining.about" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="EditTrainingData.controls?.about?.touched && EditTrainingData.controls?.about?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- עיר -->
+          <mat-label>עיר<span class="text-danger pr-1">*</span></mat-label><br>
+          <mat-form-field class="cityAndRace">
+            <mat-select formControlName="cityId" [(ngModel)]="editTraining.cityId" disableRipple>
+              <mat-option class="optionCityRace" *ngFor="let city of allCitys" [value]="city.id">{{city.cityName}}</mat-option>
+            </mat-select>
+            <small class="form-text text-danger" *ngIf="EditTrainingData.controls?.cityId?.touched && EditTrainingData.controls?.cityId?.errors?.required">אנא מלא שדה זה</small>
+          </mat-form-field><br>
+        </tr>
+        <tr class="buttonFin"><br>
+          <button class="btn btn-outline-secondary" (click) = "onBack()" matTooltip="הקודם"><mat-icon>arrow_forward</mat-icon></button>
+          <button class="btn btn-outline-secondary" type="submit" [disabled]="!EditTrainingData.valid" matTooltip="ערוך"><mat-icon>edit</mat-icon></button>
+        </tr><br>
+      </table>
+    </form>
+  </div>
+</table>
+
+<!-- ++++++++++++++++ עדכון חבילת אילוף  ++++++++++++++++ -->
+<table class="tableUserData" *ngIf="mode == 'TrainingPackageData'">
+  <!-- הצגת נתונים + מחיקה-->
+  <table class="table table-bordered mat-elevation-z8 mat-table" *ngIf="openCloseEditAdd == 1;">
+    <thead>
+      <tr class="DirName">
+        <th><b>מספר מזהה:</b></th>
+        <th><b>חבילת אילוף:</b></th>
+        <th><b>מידע:</b></th>
+        <th><b>מחיר:</b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="trDir" *ngFor="let TrainingPackage of allTrainingPackage">
+        <td *ngIf=" this.currentTrainingPackageId.id == TrainingPackage.trainingId">{{TrainingPackage.id}}</td>
+        <td *ngIf=" this.currentTrainingPackageId.id == TrainingPackage.trainingId">{{TrainingPackage.trainingName}}</td>
+        <td *ngIf=" this.currentTrainingPackageId.id == TrainingPackage.trainingId">{{TrainingPackage.ddescription}}</td>
+        <td *ngIf=" this.currentTrainingPackageId.id == TrainingPackage.trainingId">₪{{TrainingPackage.price}}</td>
+        <td *ngIf=" this.currentTrainingPackageId.id == TrainingPackage.trainingId">
+          <button class="Allbtn btn btn-outline-danger" matTooltip="מחיקה" (click) ="DeleteTrainingPackageById(TrainingPackage.id)"><mat-icon>delete</mat-icon></button>
+          <button class="Allbtn btn btn-outline-secondary" matTooltip="עדכון" (click)="TrainingPackageObjUpdate = TrainingPackage; openCloseEditAdd = 2 "><mat-icon>edit</mat-icon></button>
+        </td>
+      </tr>
+      <tr class="trDir">
+        <button class="backBtn btn btn-light" (click) = "onBack()" matTooltip="הקודם"><mat-icon>arrow_forward</mat-icon></button>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- עריכת נתונים -->
+  <div>
+    <form [formGroup]="EditTrainingPackageData" (ngSubmit)="EditeditTrainingPackage()">
+      <table class="tableCreateUser" *ngIf="openCloseEditAdd == 2;">
+        <tr class="NameInput">
+          <!-- סוג האילוף -->
+          <label for="text">סוג האילוף<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" formControlName="trainingName" [(ngModel)]="TrainingPackageObjUpdate.trainingName" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="EditTrainingPackageData.controls?.trainingName?.touched && EditTrainingPackageData.controls?.trainingName?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- תיאור האילוף  -->
+          <label for="text">תיאור האילוף<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn about" formControlName="ddescription" [(ngModel)]="TrainingPackageObjUpdate.ddescription" required="required" type="text"><br>
+          <small class="form-text text-danger" *ngIf="EditTrainingPackageData.controls?.ddescription?.touched && EditTrainingPackageData.controls?.ddescription?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="NameInput">
+          <!-- מחיר האילוף  -->
+          <label for="text">מחיר האילוף<span class="text-danger pr-1">*</span></label><br>
+          <input class="Circle btn" formControlName="price" [(ngModel)]="TrainingPackageObjUpdate.price" required="required" type="number"><br>
+          <small class="form-text text-danger" *ngIf="EditTrainingPackageData.controls?.price?.touched && EditTrainingPackageData.controls?.price?.errors?.required">אנא מלא שדה זה</small>
+        </tr><br>
+        <tr class="buttonFin"><br>
+          <button class="btn btn-outline-secondary" (click) = "onBack()" matTooltip="הקודם"><mat-icon>arrow_forward</mat-icon></button>
+          <button class="btn btn-outline-secondary" type="submit" [disabled]="!EditTrainingPackageData.valid" matTooltip="ערוך"><mat-icon>edit</mat-icon></button><br>
+        </tr>
+      </table>
+    </form>
+  </div><br>
+</table>
+
+
+
+
+
+

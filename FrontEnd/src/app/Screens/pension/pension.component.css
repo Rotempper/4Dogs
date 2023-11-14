@@ -1,0 +1,57 @@
+h1{
+  text-align: center;
+  margin-top: 40px;
+  letter-spacing: .0625rem;
+  color: #62554a;
+  font-family: Yeezy Tstar Bold;
+  font-size: 1.875rem;
+  line-height: 1.05;
+}
+
+.title{
+  font-size: 18px;
+}
+
+.infoPanel{
+  /* flex-grow: inherit; */
+  padding-left: 10px;
+  direction: ltr;
+}
+
+.infoPanel2{
+  color: #62554a;
+  font-family: Yeezy Tstar Bold;
+  letter-spacing: .0625rem;
+  font-size: 17px;
+  line-height: 1.05;
+}
+
+.FirstDivTable{
+  text-align: center;
+  direction: rtl;
+}
+
+.DirName{
+  text-align: center;
+  color: #62554a;
+  font-family: Yeezy Tstar Bold;
+  font-size: 19px;
+}
+
+form{
+  text-align: start;
+}
+
+.mat-form-field{
+  text-align: start;
+}
+
+table,td{
+  width: 900px;
+  border-style: groove;
+}
+
+.divError{
+  text-align: center;
+  width: 270px;
+}

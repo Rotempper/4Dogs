@@ -1,0 +1,130 @@
+ <!--......................... תמונות זזות.......................... -->
+ <br><br>
+ <ngb-carousel class="carousel ">
+  <ng-template ngbSlide>
+    <table class="tablePhotoDown">
+      <tr>
+        <td>
+          <!--1 תמונה -->
+          <div class="img1 ">
+            <img src="../assets/חנויות.jpg" alt="first slide">
+          </div>
+          <!-- פירוט תמונה למטה -->
+          <div class="carousel-caption">
+            <h3>חנויות</h3>
+            <p>רשימת חנויות ומוצרים נגישים למקום מגוריכם.</p>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </ng-template>
+
+  <ng-template ngbSlide>
+    <table class="tablePhotoDown">
+      <tr>
+        <td>
+          <!--2 תמונה -->
+          <div class="img2">
+            <img src="../assets/פנסיון.jpg" alt="second slide">
+          </div>
+          <!-- פירוט תמונה למטה -->
+          <div class="carousel-caption">
+            <h3>פנסיונים</h3>
+            <p>מגוון פנסיונים מוצאים לכם במקומות בארץ לכלב שלכם.</p>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </ng-template>
+
+  <ng-template ngbSlide>
+    <table class="tablePhotoDown">
+      <tr>
+        <td>
+          <!--3 תמונה -->
+          <div class="img3">
+            <img src="../assets/מספרה.jpg" alt="third slide">
+          </div>
+          <!-- פירוט תמונה למטה -->
+          <div class="carousel-caption">
+            <h3>מספרות</h3>
+            <p>סוגי תספורות לכלב שלכם כאן בעיר הקרובה.</p>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </ng-template>
+
+  <ng-template ngbSlide>
+    <table class="tablePhotoDown">
+      <tr>
+        <td>
+          <!--4 תמונה -->
+          <div class="img4">
+            <img src="../assets/אילוף.jpg" alt="third slide">
+          </div>
+          <!-- פירוט תמונה למטה -->
+          <div class="carousel-caption">
+            <h3>אילופים</h3>
+            <p>מגוון סוגי חבילות אילוף באתר לכל הכלבים.</p>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </ng-template>
+</ngb-carousel><br><br>
+
+
+<!--********************* קטגוריות ותמונה עם כפתור********************* -->
+<table class="tablePhotoDown">
+  <tr>
+    <td>
+      <div class="cardPhotoDown">
+        <div class="cardSize">
+          <img class="card-img-top" src="../../../assets/shop.jpg" alt="...">
+            <div class="card text-dark bg-light">
+              <h4><b>חנויות</b></h4>
+              <p>מבחר של מוצרי מזון וציוד לכל סוגי הכלבים בחנות הקרובה לביתך.</p>
+              <a class="btn btn-outline-dark" routerLink="/Shops">לחץ כאן</a>
+            </div>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="cardPhotoDown">
+        <div class="cardSize">
+          <img class="card-img-top" src="../../../assets/training.jpg" alt="...">
+            <div class="card text-dark bg-light">
+              <h4><b>אילופים</b></h4>
+              <p> מאלפי כלבים בארץ המספקים פתרון בעיות התנהגות, חינוך גורים, פקודות בסיסיות ועוד.</p>
+              <a class="btn btn-outline-dark" routerLink="/Training">לחץ כאן</a>
+            </div>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="cardPhotoDown">
+        <div class="cardSize">
+          <img class="card-img-top" src="../../../assets/barbershop.jpg" alt="...">
+            <div class="card text-dark bg-light">
+              <h4><b>מספרות</b></h4>
+              <p >שירות של רחיצה ,תספורת כלבים וגזירת ציפורניים לכל סוגי הכלבים.</p>
+              <a class="btn btn-outline-dark" routerLink="/Barbershop">לחץ כאן</a>
+            </div>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="cardPhotoDown">
+        <div class="cardSize">
+          <img class="card-img-top" src="../../../assets/pansion.jpg" alt="...">
+            <div class="card text-dark bg-light">
+              <h4><b>פנסיונים</b></h4>
+              <p>פנסיון המחולק לחדרים וחצרות עם צוות מקצועי המספק שירות לשמירת כלבים במקרה הצורך.</p>
+              <a class="btn btn-outline-dark" routerLink="/Pension">לחץ כאן</a>
+            </div>
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>

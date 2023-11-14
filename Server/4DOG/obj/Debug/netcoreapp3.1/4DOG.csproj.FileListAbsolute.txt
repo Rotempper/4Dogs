@@ -1,0 +1,928 @@
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.exe
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.deps.json
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.json
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.dev.json
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\shani\source\repos\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\shani\source\repos\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.AssemblyReference.cache
+C:\Users\shani\source\repos\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfoInputs.cache
+C:\Users\shani\source\repos\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfo.cs
+C:\Users\shani\source\repos\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CoreCompileInputs.cache
+C:\Users\shani\source\repos\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\shani\source\repos\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.Manifest.cache
+C:\Users\shani\source\repos\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.xml
+C:\Users\shani\source\repos\4DOG\4DOG\obj\Debug\netcoreapp3.1\scopedcss\bundle\4DOG.styles.css
+C:\Users\shani\source\repos\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.RazorTargetAssemblyInfo.cache
+C:\Users\shani\source\repos\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CopyComplete
+C:\Users\shani\source\repos\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\shani\source\repos\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\shani\source\repos\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.genruntimeconfig.cache
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.exe
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.deps.json
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.json
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.dev.json
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csprojAssemblyReference.cache
+C:\Users\user\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfo.cs
+C:\Users\user\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.RazorTargetAssemblyInfo.cache
+C:\Users\user\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CopyComplete
+C:\Users\user\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.Manifest.cache
+C:\Users\user\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.xml
+C:\Users\user\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\user\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\user\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.genruntimeconfig.cache
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.exe
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.deps.json
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.json
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.dev.json
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.AssemblyReference.cache
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfoInputs.cache
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfo.cs
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CoreCompileInputs.cache
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.Manifest.cache
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.xml
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\obj\Debug\netcoreapp3.1\scopedcss\bundle\4DOG.styles.css
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.RazorTargetAssemblyInfo.cache
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CopyComplete
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.genruntimeconfig.cache
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.exe
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.deps.json
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.json
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.dev.json
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\shani\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.AssemblyReference.cache
+C:\Users\shani\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfoInputs.cache
+C:\Users\shani\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfo.cs
+C:\Users\shani\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CoreCompileInputs.cache
+C:\Users\shani\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\shani\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.Manifest.cache
+C:\Users\shani\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.xml
+C:\Users\shani\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\scopedcss\bundle\4DOG.styles.css
+C:\Users\shani\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.RazorTargetAssemblyInfo.cache
+C:\Users\shani\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CopyComplete
+C:\Users\shani\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\shani\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\shani\Desktop\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.genruntimeconfig.cache
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.exe
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.deps.json
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.json
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.dev.json
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csprojAssemblyReference.cache
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfo.cs
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.RazorTargetAssemblyInfo.cache
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CopyComplete
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.Manifest.cache
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.xml
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.genruntimeconfig.cache
+C:\Users\shani\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csprojAssemblyReference.cache
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfo.cs
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.exe
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.deps.json
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.json
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.dev.json
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.RazorTargetAssemblyInfo.cache
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CopyComplete
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.Manifest.cache
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.xml
+C:\Users\user\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.genruntimeconfig.cache
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.exe
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.deps.json
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.json
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.dev.json
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csprojAssemblyReference.cache
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfo.cs
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.RazorTargetAssemblyInfo.cache
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CopyComplete
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.Manifest.cache
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.xml
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\user\Desktop\פרויקט גמר חדש\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.genruntimeconfig.cache
+C:\Users\shani\Desktop\4Dogs - SQL\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.exe
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.deps.json
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.json
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.dev.json
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csprojAssemblyReference.cache
+C:\Users\user\Desktop\new\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\new\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfo.cs
+C:\Users\user\Desktop\new\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\new\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\new\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.RazorTargetAssemblyInfo.cache
+C:\Users\user\Desktop\new\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CopyComplete
+C:\Users\user\Desktop\new\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.Manifest.cache
+C:\Users\user\Desktop\new\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.xml
+C:\Users\user\Desktop\new\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\user\Desktop\new\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\user\Desktop\new\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.genruntimeconfig.cache
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.exe
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.deps.json
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.json
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.dev.json
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csprojAssemblyReference.cache
+C:\Users\user\Desktop\חדש\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\חדש\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfo.cs
+C:\Users\user\Desktop\חדש\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\חדש\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\חדש\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.RazorTargetAssemblyInfo.cache
+C:\Users\user\Desktop\חדש\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CopyComplete
+C:\Users\user\Desktop\חדש\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.Manifest.cache
+C:\Users\user\Desktop\חדש\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.xml
+C:\Users\user\Desktop\חדש\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\user\Desktop\חדש\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\user\Desktop\חדש\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.genruntimeconfig.cache
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.exe
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.deps.json
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.json
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.dev.json
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.AssemblyReference.cache
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfoInputs.cache
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfo.cs
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CoreCompileInputs.cache
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.Manifest.cache
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.xml
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\scopedcss\bundle\4DOG.styles.css
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.RazorTargetAssemblyInfo.cache
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CopyComplete
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\shani\Desktop\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.genruntimeconfig.cache
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.exe
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.deps.json
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.json
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.dev.json
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.AssemblyReference.cache
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfoInputs.cache
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfo.cs
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CoreCompileInputs.cache
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.Manifest.cache
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.xml
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\scopedcss\bundle\4DOG.styles.css
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.RazorTargetAssemblyInfo.cache
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CopyComplete
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.genruntimeconfig.cache
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.exe
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.deps.json
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.json
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.dev.json
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.AssemblyReference.cache
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfoInputs.cache
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfo.cs
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CoreCompileInputs.cache
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.Manifest.cache
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.xml
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\obj\Debug\netcoreapp3.1\scopedcss\bundle\4DOG.styles.css
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.RazorTargetAssemblyInfo.cache
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CopyComplete
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\shani\Desktop\4Dogs pro\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.genruntimeconfig.cache
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.exe
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.deps.json
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.json
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.dev.json
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfo.cs
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.RazorTargetAssemblyInfo.cache
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CopyComplete
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.Manifest.cache
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.xml
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\user\Desktop\הפרויקט1\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.genruntimeconfig.cache
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.exe
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.deps.json
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.json
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.dev.json
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csprojAssemblyReference.cache
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfo.cs
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.RazorTargetAssemblyInfo.cache
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CopyComplete
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.Manifest.cache
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.xml
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\user\Desktop\הפרויקט\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.genruntimeconfig.cache
+C:\Users\user\Desktop\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.exe
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.deps.json
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.json
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.runtimeconfig.dev.json
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csprojAssemblyReference.cache
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.AssemblyInfo.cs
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.RazorTargetAssemblyInfo.cache
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.csproj.CopyComplete
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.Manifest.cache
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\obj\Debug\netcoreapp3.1\staticwebassets\4DOG.StaticWebAssets.xml
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.dll
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.pdb
+C:\Users\user\Desktop\NEWNEWNEW פרויקט גמר\4DOG\4DOG\obj\Debug\netcoreapp3.1\4DOG.genruntimeconfig.cache

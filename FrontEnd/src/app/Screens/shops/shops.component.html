@@ -1,0 +1,30 @@
+<h1>רשימת חנויות לבעלי חיים:</h1><br><br>
+
+<mat-accordion *ngFor="let shop of allShops">
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title><b class="title"><li>{{shop.nameShop}}</li></b></mat-panel-title>
+      <mat-panel-description class="infoPanel">לחץ כאן לפרטי חנות</mat-panel-description>
+    </mat-expansion-panel-header>
+
+    <div class="FirstDivTable">
+      <table class="table">
+        <thead>
+          <tr class="DirName">
+            <td><b>כתובת:</b></td>
+            <td><b> עיר:</b></td>
+            <td><b>טלפון:</b></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{{shop.aaddress}}</td>
+            <td>{{shop.city}}</td>
+            <td>{{shop.phone}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </mat-expansion-panel>
+</mat-accordion>
+

@@ -1,0 +1,66 @@
+h1{
+  text-align: center;
+  margin-top: 40px;
+  letter-spacing: .0625rem;
+  color: #62554a;
+  font-family: Yeezy Tstar Bold;
+  font-size: 1.875rem;
+  line-height: 1.05;
+}
+
+.title{
+  font-size: 18px;
+}
+
+.infoPanel{
+  padding-left: 10px;
+  direction: ltr;
+}
+
+.FirstDivTable{
+  text-align: center;
+  direction: rtl;
+}
+
+.DirName{
+  text-align: center;
+  color: #62554a;
+  font-family: Yeezy Tstar Bold;
+  font-size: 19px;
+}
+
+h3{
+  text-align: start;
+  color: #62554a;
+  font-family: Yeezy Tstar Bold;
+  letter-spacing: .0625rem;
+  font-size: 17px;
+  line-height: 1.05;
+
+}
+
+.infoPanel2{
+  color: #62554a;
+  font-family: Yeezy Tstar Bold;
+  letter-spacing: .0625rem;
+  font-size: 17px;
+  line-height: 1.05;
+}
+
+table,td{
+  width: 900px;
+  border-style: groove;
+}
+
+.form-group{
+  text-align: start;
+}
+
+.divError{
+  text-align: start;
+  width: 270px;
+}
+
+.matFormFieldDate{
+  text-align: start;
+}

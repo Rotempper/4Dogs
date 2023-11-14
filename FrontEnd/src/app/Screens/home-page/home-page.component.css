@@ -1,0 +1,42 @@
+/* צבע הכיתוב בתמונה */
+h3{
+  font-size: 30px;
+  border: black;
+}
+
+h4{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+/* תמונות זזות - פירוט תמונה למטה */
+.carousel-caption{
+  color: black;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.678);
+  border-radius: 100px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* תמונות למטה - קטגוריות */
+.tablePhotoDown{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*  עיצוב הכרטיס - תמונות למטה - קטגוריות */
+.cardPhotoDown{
+margin-bottom: 2px;
+margin: 4px;
+padding-left: 5px;
+}
+
+.cardSize{
+  width:16rem;
+}
+

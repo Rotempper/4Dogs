@@ -1,0 +1,36 @@
+<h2>הוספת משתמש - חנות:</h2>
+<form [formGroup]="AddShopForm">
+  <table>
+    <label>שם העסק:</label>
+      <tr>
+        <input class="Circle btn" type="text" maxlength="15" formControlName="nameShop">
+        <small class="form-text text-danger" *ngIf="AddShopForm.controls?.nameShop?.touched && AddShopForm.controls?.nameShop?.errors?.required">אנא מלא שדה זה</small>
+      </tr><br>
+      <label>טלפון:</label>
+      <tr>
+        <input class="Circle btn" type="text" minlength="10" maxlength="10" formControlName="phone">
+        <small class="form-text text-danger" *ngIf="AddShopForm.controls?.phone?.touched && AddShopForm.controls?.phone?.errors?.required">אנא מלא שדה זה</small>
+        <small class="form-text text-danger" *ngIf="AddShopForm.controls?.phone?.touched && AddShopForm.controls?.phone?.errors?.pattern"> חובה להזין 10 ספרות</small>
+      </tr><br>
+      <label>כתובת:</label>
+      <tr>
+        <input class="Circle btn" type="text" maxlength="20" formControlName="aaddress">
+        <small class="form-text text-danger" *ngIf="AddShopForm.controls?.aaddress?.touched && AddShopForm.controls?.aaddress?.errors?.required">אנא מלא שדה זה</small>
+      </tr><br>
+
+      <tr><br>
+        <mat-label>עיר<span class="text-danger pr-1">*</span></mat-label><br>
+        <mat-form-field class="cityInput">
+          <mat-select formControlName="cityId" disableRipple>
+            <mat-option *ngFor="let city of allCitys" [value]="city.id">{{city.cityName}}</mat-option>
+          </mat-select>
+          <small class="form-text text-danger" *ngIf="AddShopForm.controls?.cityId?.touched && AddShopForm.controls?.cityId?.errors?.required">אנא מלא שדה זה</small>
+        </mat-form-field><br>
+
+        <div class="btnEnd">
+          <button class="btn btn-outline-secondary" (click) = "onBack()" matTooltip="הקודם"><mat-icon>arrow_forward</mat-icon></button>
+          <button class="btn btn-outline-secondary" type="submit" [disabled]="!AddShopForm.valid" (click)="AddShops()" matTooltip="הוסף"><mat-icon>how_to_reg</mat-icon></button>
+        </div>
+      </tr>
+  </table>
+</form>
