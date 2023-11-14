@@ -33,6 +33,7 @@ Sign in
 ![Sign in](https://github.com/Rotempper/4Dogs/assets/73877783/47d20a26-ac30-4cb9-adce-2486f1735c1b)
 Sign up 1
 --------------------------------------------------------------------------------
+![Sign up 1](https://github.com/Rotempper/4Dogs/assets/73877783/08dc5908-d2e9-40d6-a9a0-8602ada83a33)
 Sign up 2
 --------------------------------------------------------------------------------
 Sign up 3
