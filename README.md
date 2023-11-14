@@ -2,23 +2,26 @@
 Angular Project
 
 Description
+-------------------------------------------------------------------------------
 ??????????????????????????????????????????/
 
 
 Code languages
 ----------------------------------------------------------------------------------
-TS<br />
-HTML5<br />
-CSS <br />
-SQL<br />
-C#<br />
+TS <br/>
+HTML5 <br/>
+CSS <br/>
+SQL <br/>
+C# <br/>
 
-framework
-Angular
-ASP.NET Core Web API
+Framework
+-------------------------------------------------------------------------------
+Angular <br/>
+ASP.NET Core Web API <br/>
 
 Data Base
-SQL Server
+-----------------------------------------------------------------------------------
+SQL Server <br/>
 
 Some pictures from the project
 Home page 
