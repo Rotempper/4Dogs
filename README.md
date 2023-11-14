@@ -43,6 +43,7 @@ Sign up 3
 
 Sign up 4 Dog training details
 --------------------------------------------------------------------------------
+![Sign up 4](https://github.com/Rotempper/4Dogs/assets/73877783/8c70d272-2afd-4bc5-b10b-cbe37c126335)
 Dog training details
 --------------------------------------------------------------------------------
 Dog owner diary
