@@ -30,6 +30,7 @@ Home page
 ![Home page](https://github.com/Rotempper/4Dogs/assets/73877783/17109b78-b0f6-4173-b65f-21c3888db821)
 Sign in 
 --------------------------------------------------------------------------------
+![Sign in](https://github.com/Rotempper/4Dogs/assets/73877783/47d20a26-ac30-4cb9-adce-2486f1735c1b)
 Sign up 1
 --------------------------------------------------------------------------------
 Sign up 2
