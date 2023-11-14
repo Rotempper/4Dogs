@@ -3,7 +3,9 @@ Angular Project
 
 Description
 -------------------------------------------------------------------------------
-??????????????????????????????????????????/
+The project was created to unite all the services needed by dogs on one site.<br/>
+The website contains information about various shops, such as barber shops, dog training services, etc<br/>
+You can make an appointment to shop on the website<br/>
 
 
 Code languages
